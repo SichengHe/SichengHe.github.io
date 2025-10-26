@@ -10,16 +10,19 @@ redirect_from:
 Check out my recent [presentation](https://github.com/SichengHe/MIT_LAE_seminar/blob/main/Sicheng_He_seminar.pdf)!
 
 Table of content
-- [Research vision](#research-vision)
+<!-- - [Research vision](#research-vision) -->
 - [Research projects](#research-projects)
-  - [1. MDO with general dynamical systems and control](#1-mdo-with-general-dynamical-systems-and-control)
-  - [2. Aeroelastic optimization](#2-aeroelastic-optimization)
+  - [1. Modal analysis and time spectral method](#1-modal-analysis-and-time-spectral-method)
+  - [2. MDO + dynamical systems and control](#2-mdo--dynamical-systems-and-control)
   - [3. Machine learning in aerodynamic shape optimization](#3-machine-learning-in-aerodynamic-shape-optimization)
+  - [4. Differentiable data assimilation](#4-differentiable-data-assimilation)
+- [Past research projects](#past-research-projects)
+  - [2. Aeroelastic optimization](#2-aeroelastic-optimization)
   - [4. Offshore Wind turbine aerostructural optimization](#4-offshore-wind-turbine-aerostructural-optimization)
   - [5. Aerodynamic shape optimization with laminar-turbulent transition model](#5-aerodynamic-shape-optimization-with-laminar-turbulent-transition-model)
   - [6. Structural global optimization using mixed integer linear or second order cone optimization (MILO and MISOCO)](#6-structural-global-optimization-using-mixed-integer-linear-or-second-order-cone-optimization-milo-and-misoco)
 
-# Research vision
+<!-- # Research vision
 I design efficient and environmentally friendly aircraft by developing efficient algorithms and code implementation. 
 I conduct interdisciplinary research--the three domains I have been researching are multidisciplinary design optimization (MDO), dynamical system and control, and machine learning. 
 In my research, I develop new theories to convert previously untackled dynamical systems and control optimization problems into a computationally efficient formulation. 
@@ -32,12 +35,14 @@ The unique combination of high-fidelity models and dynamical systems and control
 The research vision that differentiates me from other labs working on MDO is listed below:
 1. **(Theory)** MDO shall be enabled to address ever **more complex dynamical systems and control problems** beyond the current focus, i.e., the steady-state problems.
 2. **(Implementation/code)** **Efficient and general-purpose codes** for design optimization in dynamical systems and control shall be developed leveraging the abstraction ability of the mathematical representation.
-3. **(Application)** I develop **environmentally friendly engineering designs**, such as efficient off-shore wind turbines, and aircraft with less noise and emission, to address critical climate and energy challenges of modern society.
+3. **(Application)** I develop **environmentally friendly engineering designs**, such as efficient off-shore wind turbines, and aircraft with less noise and emission, to address critical climate and energy challenges of modern society. -->
 
 
 # Research projects
 
-## 1. MDO with general dynamical systems and control
+## 1. Modal analysis and time spectral method
+
+## 2. MDO + dynamical systems and control
 
 Dynamical systems are universal.
 In the past several decades, the MDO community focused on dynamical systems classified as equilibrium points, and little previous research was on bifurcation, LCO, and chaotic systems.
@@ -69,6 +74,37 @@ __Publication:__
 | <img src='../images/publication/complex_eigen.png' align="center" width="200" height="10"> | __Sicheng He__, Yayun Shi, Eirikur Jonsson, Joaquim R. R. A. Martins.  <br><br> [__Eigenvalue problem derivatives computation for a complex matrix using the adjoint method__](https://www.researchgate.net/publication/362931690_Eigenvalue_problem_derivatives_computation_for_a_complex_matrix_using_the_adjoint_method)  <br><br> _MSSP (accepted)_ (2023).|
 | <img src='../images/publication/eigenXDSM.png' align="center" width="200" height="10"> | __Sicheng He__, Eirikur Jonsson, and joaquim R. R. A. Martins.  <br><br> [__Derivatives for Eigenvalues and Eigenvectors via Analytic Reverse Algorithmic Differentiation__](https://arc.aiaa.org/doi/abs/10.2514/1.J060726?journalCode=aiaaj)  <br><br> _AIAA Journal_ (2022).|
 
+
+## 3. Machine learning in aerodynamic shape optimization
+
+Surrogate models, including the classic and more recent machine learning models, are becoming essential tools for designers because they outperform a direct numerical analysis in speed with similar accuracy,and they can also solve problems without explicit numerical models.
+Compared with the classic tools (e.g., the kriging method), machine learning tools (e.g., the deep neural network) suffer less from overfitting and perform better when the data set is large.
+With the aforementioned benefits, we want to address the following question in our research:
+**How can we accelerate the optimization using machine learning?**
+
+
+We develop deep neural network-based models to answer this question.
+The key finding is that uniformly sampling design space is inefficient.
+The design space paramitrization and the sampling shall favor the region with good performance.
+As one highlight of the research, we are the first to apply the so-called Sobolev neural network, a gradient-enhanced neural network, to obtain the **state-of-the-art** accurate surrogate model for airfoil aerodynamic parameters, such as lift and drag.
+The proposed method enables **real-time** aerodynamic analysis and shape optimization, and it is one of the engines that drive the online airfoil simulation website, [Webfoil](http://webfoil.engin.umich.edu/)
+. 
+
+
+|        |  |
+|   :-:    | -       |  
+| <img src='../images/publication/buffet.png' align="center" width="200" height="10"> | Jichao Li, __Sicheng He__, Mengqi Zhang, Joaquim R. R. A. Martins, Boo Cheong Khoo.  <br><br> [__Physics-Based Data-Driven Buffet-Onset Constraint for Aerodynamic Shape Optimization__](https://arc.aiaa.org/doi/10.2514/1.J061519)  <br><br> _AIAA Journal_ (2022).|
+| <img src='../images/publication/transonic.png' align="center" width="200" height="10"> | Mohamed Amine Bouhlel, __Sicheng He__, and Joaquim R. R. A. Martins. <br><br> [__Scalable gradient-enhanced artiﬁcial neural networks for airfoil shape design in the subsonic and transonic regimes__](https://link.springer.com/article/10.1007/s00158-020-02488-5)  <br><br> _Structural and Multidisciplinary Optimization_ (2020). (Webfoil)|
+| <img src='../images/publication/stream.png' align="center" width="200" height="10"> | Jichao Li, __Sicheng He__, and Joaquim R. R. A. Martins. <br><br> [__Data-driven constraint approach to ensure low-speed performance in transonic aerodynamic shape optimization__](https://www.sciencedirect.com/science/article/pii/S1270963819304912)  <br><br> _Aerospace Science and Technology_ (2019).|
+
+
+## 4. Differentiable data assimilation
+
+
+
+# Past research projects
+
+
 ## 2. Aeroelastic optimization
 
 ![Flutter](../images/publication/flutter_fine_ezgif.gif)
@@ -94,27 +130,6 @@ I was awarded an AIAA Aviation Conference **best student paper award**.
 | <img src='../images/publication/83.png' align="center" width="200" height="10"> | __Sicheng He__, Eirikur Jonsson, Charles A. Mader, and Joaquim R. R. A. Martins. <br><br> [__Coupled Newton–Krylov timespectral solver for ﬂutter and limit cycle oscillation prediction__](https://arc.aiaa.org/doi/10.2514/1.J059224)  <br><br> _AIAA Journal_ (2021).|
 | <img src='../images/publication/flutter_fine_ezgif.gif' align="center" width="200" height="10"> | __Sicheng He__, Eirikur Jonsson, Charles A. Mader, and Joaquim R. R. A. Martins. <br><br> [__A coupled Newton–Krylov time-spectral solver for wing ﬂutter and LCO prediction__](https://arc.aiaa.org/doi/10.2514/6.2019-3549). <br><br> _In AIAA Aviation Forum, Dallas, TX, June 2019_. (Best student paper award, 2nd place)|
 
-## 3. Machine learning in aerodynamic shape optimization
-
-Surrogate models, including the classic and more recent machine learning models, are becoming essential tools for designers because they outperform a direct numerical analysis in speed with similar accuracy,and they can also solve problems without explicit numerical models.
-Compared with the classic tools (e.g., the kriging method), machine learning tools (e.g., the deep neural network) suffer less from overfitting and perform better when the data set is large.
-With the aforementioned benefits, we want to address the following question in our research:
-**How can we accelerate the optimization using machine learning?**
-
-
-We develop deep neural network-based models to answer this question.
-The key finding is that uniformly sampling design space is inefficient.
-The design space paramitrization and the sampling shall favor the region with good performance.
-As one highlight of the research, we are the first to apply the so-called Sobolev neural network, a gradient-enhanced neural network, to obtain the **state-of-the-art** accurate surrogate model for airfoil aerodynamic parameters, such as lift and drag.
-The proposed method enables **real-time** aerodynamic analysis and shape optimization, and it is one of the engines that drive the online airfoil simulation website, [Webfoil](http://webfoil.engin.umich.edu/)
-. 
-
-
-|        |  |
-|   :-:    | -       |  
-| <img src='../images/publication/buffet.png' align="center" width="200" height="10"> | Jichao Li, __Sicheng He__, Mengqi Zhang, Joaquim R. R. A. Martins, Boo Cheong Khoo.  <br><br> [__Physics-Based Data-Driven Buffet-Onset Constraint for Aerodynamic Shape Optimization__](https://arc.aiaa.org/doi/10.2514/1.J061519)  <br><br> _AIAA Journal_ (2022).|
-| <img src='../images/publication/transonic.png' align="center" width="200" height="10"> | Mohamed Amine Bouhlel, __Sicheng He__, and Joaquim R. R. A. Martins. <br><br> [__Scalable gradient-enhanced artiﬁcial neural networks for airfoil shape design in the subsonic and transonic regimes__](https://link.springer.com/article/10.1007/s00158-020-02488-5)  <br><br> _Structural and Multidisciplinary Optimization_ (2020). (Webfoil)|
-| <img src='../images/publication/stream.png' align="center" width="200" height="10"> | Jichao Li, __Sicheng He__, and Joaquim R. R. A. Martins. <br><br> [__Data-driven constraint approach to ensure low-speed performance in transonic aerodynamic shape optimization__](https://www.sciencedirect.com/science/article/pii/S1270963819304912)  <br><br> _Aerospace Science and Technology_ (2019).|
 
 ## 4. Offshore Wind turbine aerostructural optimization
 

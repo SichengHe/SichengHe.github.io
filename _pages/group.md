@@ -12,7 +12,7 @@ permalink: /group/
 # Master student
 * Max Howell
   * 2nd year, ME master student
-  * Publication: 
+  * Publication: [AIAA Submitted](https://arxiv.org/pdf/2511.03840)
 * Yuan Wu
   * 2nd year, master student (Rice U)
   * Publication [JCP submitted](https://arxiv.org/pdf/2509.07474)

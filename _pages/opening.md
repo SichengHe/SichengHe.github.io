@@ -2,8 +2,8 @@
 layout: archive
 title: "Open positions"
 permalink: /opening/
-author_profile: true
-redirect_from: 
+author_profile: false
+redirect_from:
   - /resume
 ---
 

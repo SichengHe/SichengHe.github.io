@@ -1,0 +1,106 @@
+# Team member data
+# Add team member photos to /images/team/ folder
+
+principal_investigator:
+  - name: "Sicheng He"
+    photo: "/images/sicheng_utk.png"
+    position: "Assistant Professor"
+    affiliation: "University of Tennessee, Knoxville"
+    education:
+      - degree: "Ph.D."
+        field: "Aerospace Engineering"
+        institution: "University of Michigan"
+        year: 2020
+      - degree: "M.S."
+        field: "Applied Mathematics"
+        institution: "University of Michigan"
+        year: 2015
+      - degree: "M.S.E."
+        field: "Aerospace Engineering"
+        institution: "University of Michigan"
+        year: 2015
+      - degree: "B.S.E."
+        field: "Aerospace Engineering"
+        institution: "University of Michigan"
+        year: 2013
+      - degree: "B.S.E."
+        field: "Mechanical Engineering"
+        institution: "Shanghai Jiao Tong University"
+        year: 2013
+    links:
+      google_scholar: "https://scholar.google.com/citations?user=qS7fVDAAAAAJ&hl=en"
+      github: "https://github.com/SichengHe"
+      researchgate: "https://www.researchgate.net/profile/Sicheng-He"
+      orcid: "https://orcid.org/0000-0003-1307-4909"
+
+phd_students:
+  - name: "Rohit Kanchi"
+    photo: "/images/team/rohit_kanchi.jpg"
+    position: "Ph.D. Student"
+    affiliation: "University of Tennessee, Knoxville"
+    education:
+      - degree: "Ph.D."
+        field: ""
+        institution: "University of Tennessee, Knoxville"
+        year: 2028
+      - degree: "B.Tech."
+        field: ""
+        institution: "Vellore Institute of Technology"
+        year: 2023
+    links:
+      linkedin: "https://www.linkedin.com/in/rohit-kanchi-7190b0190/"
+      google_scholar: "https://scholar.google.com/citations?user=vM35l1YAAAAJ&hl=en"
+
+masters_students:
+  - name: "Max Howell"
+    photo: "/images/team/max_howell.jpg"
+    position: "M.S. Student"
+    affiliation: "University of Tennessee, Knoxville"
+    education:
+      - degree: "B.S."
+        field: "Mechanical Engineering"
+        institution: "University of Tennessee, Knoxville"
+        year: 2024
+    links:
+      linkedin: "https://www.linkedin.com/in/max-howell-3261a0267/"
+
+  - name: "Yuan Wu"
+    photo: "/images/team/yuan_wu.jpg"
+    position: "Summer Research Student"
+    affiliation: "Rice University"
+    education:
+      - degree: "M.S."
+        field: ""
+        institution: "Rice University"
+        year: 2026
+      - degree: "B.S."
+        field: ""
+        institution: "Tongji University"
+        year: 2024
+    links:
+      linkedin: "https://www.linkedin.com/in/yuan-wu-5a977b32a/"
+
+undergraduate_students:
+  - name: "Benjamin Melanson"
+    photo: "/images/team/benjamin_melanson.jpg"
+    position: "Undergraduate Researcher"
+    affiliation: "University of Tennessee, Knoxville"
+    education:
+      - degree: "B.S."
+        field: ""
+        institution: "University of Tennessee, Knoxville"
+        year: 2026
+    links:
+      linkedin: "https://www.linkedin.com/in/benjamin-melanson/"
+
+# Alumni section - add graduated students here
+alumni:
+  # - name: "Former Student"
+  #   photo: "/images/team/former_student.jpg"
+  #   degree: "Ph.D."
+  #   graduation_year: 2024
+  #   thesis_title: "Thesis Title"
+  #   first_position: "Postdoc at University X"
+  #   current_position: "Assistant Professor at University Y"
+  #   links:
+  #     linkedin: ""

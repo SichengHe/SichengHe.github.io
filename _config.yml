@@ -7,10 +7,10 @@
 
 # Site Settings
 locale: "en-US"
-title: "Sicheng He"
+title: "CODES Group"
 title_separator: "-"
-name: &name "Sicheng He"
-description: &description "personal description"
+name: &name "CODES Group"
+description: &description "Computational Optimization for Dynamics and Engineering Systems"
 url: https://SichengHe.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
 repository: "SichengHe/SichengHe.github.io"
@@ -78,10 +78,10 @@ analytics:
 
 # Site Author
 author:
-  name: "Sicheng He"
+  name: "CODES Group"
   avatar: "sicheng_utk.png"
-  bio: "Enabling design optimization for large-scale dynamical systems."
-  location: "Knoxville, TN"
+  bio: "Computational Optimization for Dynamics and Engineering Systems"
+  location: "University of Tennessee, Knoxville"
   employer:
   pubmed:
   googlescholar: "https://scholar.google.com/citations?user=qS7fVDAAAAAJ&hl=en"

@@ -168,8 +168,8 @@ redirect_from:
 .news-item {
   display: flex;
   gap: 1em;
-  padding: 1em 0;
-  border-bottom: 1px solid #eee;
+  padding: 0.6em 0;
+  border-bottom: none;
 }
 
 .news-item:last-child {
@@ -177,20 +177,25 @@ redirect_from:
 }
 
 .news-date {
-  flex: 0 0 80px;
-  font-size: 0.85em;
-  color: #888;
-  font-weight: 500;
+  flex: 0 0 70px;
+  font-size: 0.9em;
+  color: #b31b1b;
+  font-weight: 600;
 }
 
 .news-content {
   flex: 1;
   font-size: 0.95em;
-  color: #444;
+  color: #333;
+  line-height: 1.5;
 }
 
 .news-content a {
-  color: #ff8200;
+  color: #b31b1b;
+}
+
+.news-content strong {
+  color: #333;
 }
 
 /* Openings Section */

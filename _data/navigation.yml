@@ -10,6 +10,9 @@ main:
   - title: "Publications"
     url: /publications/
 
+  - title: "Dataset"
+    url: /dataset/
+
   - title: "Teaching"
     url: /teaching/
 

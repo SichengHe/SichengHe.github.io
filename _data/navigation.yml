@@ -3,7 +3,7 @@ main:
 
   - title: "CODES Group"
     url: /group/
-    
+
   - title: "Research"
     url: /research/
 
@@ -11,21 +11,10 @@ main:
     url: /publications/
 
   - title: "Teaching"
-    url: /teaching/   
+    url: /teaching/
 
   - title: "Service"
-    url: /service/   
+    url: /service/
 
   - title: "Opening"
-    url: /opening/    
-    
-  # - title: "Portfolio"
-  #   url: /portfolio/
-        
-  # - title: "Blog Posts"
-  #   url: /year-archive/
-    
-
-    
-  # - title: "Guide"
-  #   url: /markdown/
+    url: /opening/

@@ -17,7 +17,7 @@ redirect_from:
 }
 
 .team-section h2 {
-  border-bottom: 2px solid #52adc8;
+  border-bottom: 2px solid #ff8200;
   padding-bottom: 0.5em;
   margin-bottom: 1em;
 }
@@ -49,7 +49,7 @@ redirect_from:
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 1em;
-  border: 3px solid #52adc8;
+  border: 3px solid #ff8200;
 }
 
 .team-card h3 {
@@ -93,13 +93,13 @@ redirect_from:
 .team-card .links a {
   display: inline-block;
   margin: 0 0.3em;
-  color: #52adc8;
+  color: #ff8200;
   font-size: 1.2em;
   transition: color 0.2s ease;
 }
 
 .team-card .links a:hover {
-  color: #3a8aa8;
+  color: #e07000;
 }
 
 /* PI Card - larger and centered */

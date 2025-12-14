@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "CODES Group"
+title: " "
 excerpt: "Computational Optimization for Dynamics and Engineering Systems"
 author_profile: false
 redirect_from:

@@ -92,6 +92,9 @@ undergraduate_students:
         year: 2026
     links:
       linkedin: "https://www.linkedin.com/in/benjamin-melanson/"
+      email: "bmelanso@vols.utk.edu"
+      github: "https://github.com/BenjaminMelanson"
+      personal_website: "http://benmelanson.com/"
 
 # Alumni section - add graduated students here
 alumni:

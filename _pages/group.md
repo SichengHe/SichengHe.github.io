@@ -177,6 +177,7 @@ redirect_from:
     {% if member.links.linkedin %}<a href="{{ member.links.linkedin }}" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>{% endif %}
     {% if member.links.orcid %}<a href="{{ member.links.orcid }}" title="ORCID" target="_blank"><i class="ai ai-orcid"></i></a>{% endif %}
     {% if member.links.email %}<a href="mailto:{{ member.links.email }}" title="Email"><i class="fas fa-envelope"></i></a>{% endif %}
+    {% if member.links.personal_website %}<a href="{{ member.links.personal_website }}" title="Personal Website"><i class="fas fa-image"></i></a>{% endif %}
   </div>
 </div>
 {% endfor %}
@@ -210,6 +211,7 @@ redirect_from:
     {% if member.links.linkedin %}<a href="{{ member.links.linkedin }}" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>{% endif %}
     {% if member.links.orcid %}<a href="{{ member.links.orcid }}" title="ORCID" target="_blank"><i class="ai ai-orcid"></i></a>{% endif %}
     {% if member.links.email %}<a href="mailto:{{ member.links.email }}" title="Email"><i class="fas fa-envelope"></i></a>{% endif %}
+    {% if member.links.personal_website %}<a href="{{ member.links.personal_website }}" title="Personal Website"><i class="fas fa-image"></i></a>{% endif %}
   </div>
 </div>
 {% endfor %}
@@ -244,6 +246,7 @@ redirect_from:
     {% if member.links.linkedin %}<a href="{{ member.links.linkedin }}" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>{% endif %}
     {% if member.links.orcid %}<a href="{{ member.links.orcid }}" title="ORCID" target="_blank"><i class="ai ai-orcid"></i></a>{% endif %}
     {% if member.links.email %}<a href="mailto:{{ member.links.email }}" title="Email"><i class="fas fa-envelope"></i></a>{% endif %}
+    {% if member.links.personal_website %}<a href="{{ member.links.personal_website }}" title="Personal Website"><i class="fas fa-image"></i></a>{% endif %}
   </div>
 </div>
 {% endfor %}
@@ -278,6 +281,7 @@ redirect_from:
     {% if member.links.linkedin %}<a href="{{ member.links.linkedin }}" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>{% endif %}
     {% if member.links.orcid %}<a href="{{ member.links.orcid }}" title="ORCID" target="_blank"><i class="ai ai-orcid"></i></a>{% endif %}
     {% if member.links.email %}<a href="mailto:{{ member.links.email }}" title="Email"><i class="fas fa-envelope"></i></a>{% endif %}
+    {% if member.links.personal_website %}<a href="{{ member.links.personal_website }}" title="Personal Website"><i class="fas fa-image"></i></a>{% endif %}
   </div>
 </div>
 {% endfor %}

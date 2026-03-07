@@ -1,41 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120">
-  <defs>
-    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#60a5fa"/>
-      <stop offset="100%" style="stop-color:#3b82f6"/>
-    </linearGradient>
-    <linearGradient id="lightGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#fff"/>
-      <stop offset="100%" style="stop-color:#e0e0e0"/>
-    </linearGradient>
-  </defs>
-
   <!-- Code brackets icon -->
   <g transform="translate(10, 20)">
-    <!-- Left bracket < - blue -->
+    <!-- Left bracket < - white -->
     <path d="M 35 10 L 10 40 L 35 70"
-          fill="none" stroke="url(#blueGrad)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+          fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <!-- Right bracket > - blue -->
+    <!-- Right bracket > - white -->
     <path d="M 55 10 L 80 40 L 55 70"
-          fill="none" stroke="url(#blueGrad)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+          fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <!-- Slash / in middle - white -->
-    <line x1="52" y1="15" x2="38" y2="65" stroke="url(#lightGrad)" stroke-width="5" stroke-linecap="round"/>
+    <!-- Slash / in middle - gray -->
+    <line x1="52" y1="15" x2="38" y2="65" stroke="#999" stroke-width="5" stroke-linecap="round"/>
   </g>
 
   <!-- CODES text -->
   <text x="100" y="58" font-family="Verdana, sans-serif" font-size="48" font-weight="700">
-    <tspan fill="url(#blueGrad)">C</tspan><tspan fill="#fff">O</tspan><tspan fill="#e0e0e0">D</tspan><tspan fill="#fff">E</tspan><tspan fill="#e0e0e0">S</tspan>
+    <tspan fill="#fff">C</tspan><tspan fill="#ccc">ODES</tspan>
   </text>
 
   <!-- Group text -->
-  <text x="310" y="58" font-family="Verdana, sans-serif" font-size="48" font-weight="400" fill="rgba(255,255,255,0.8)">
+  <text x="310" y="58" font-family="Verdana, sans-serif" font-size="48" font-weight="400" fill="#aaa">
     Group
   </text>
 
   <!-- Subtitle -->
-  <text x="101" y="82" font-family="Verdana, sans-serif" font-size="10" fill="rgba(255,255,255,0.7)" letter-spacing="0.3">
+  <text x="101" y="82" font-family="Verdana, sans-serif" font-size="10" fill="#bbb" letter-spacing="0.3">
     Computational Optimization for Dynamics &amp; Engineering Systems
   </text>
 

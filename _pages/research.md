@@ -10,15 +10,16 @@ redirect_from:
 Table of content
 <!-- - [Research vision](#research-vision) -->
 - [Research projects](#research-projects)
-  - [1. Modal analysis and time spectral method](#1-modal-analysis-and-time-spectral-method)
-  - [2. MDO + dynamical systems and control](#2-mdo--dynamical-systems-and-control)
-  - [3. Machine learning in aerodynamic shape optimization](#3-machine-learning-in-aerodynamic-shape-optimization)
-  - [4. Differentiable data assimilation](#4-differentiable-data-assimilation)
+  - [1. Modal analysis](#1-modal-analysis)
+  - [2. Time spectral method](#2-time-spectral-method)
+  - [3. MDO + dynamical systems and control](#3-mdo--dynamical-systems-and-control)
+  - [4. Machine learning in aerodynamic shape optimization](#4-machine-learning-in-aerodynamic-shape-optimization)
+  - [5. Differentiable data assimilation](#5-differentiable-data-assimilation)
 - [Past research projects](#past-research-projects)
-  - [2. Aeroelastic optimization](#2-aeroelastic-optimization)
-  - [4. Offshore Wind turbine aerostructural optimization](#4-offshore-wind-turbine-aerostructural-optimization)
-  - [5. Aerodynamic shape optimization with laminar-turbulent transition model](#5-aerodynamic-shape-optimization-with-laminar-turbulent-transition-model)
-  - [6. Structural global optimization using mixed integer linear or second order cone optimization (MILO and MISOCO)](#6-structural-global-optimization-using-mixed-integer-linear-or-second-order-cone-optimization-milo-and-misoco)
+  - [1. Aeroelastic optimization](#1-aeroelastic-optimization)
+  - [2. Offshore Wind turbine aerostructural optimization](#2-offshore-wind-turbine-aerostructural-optimization)
+  - [3. Aerodynamic shape optimization with laminar-turbulent transition model](#3-aerodynamic-shape-optimization-with-laminar-turbulent-transition-model)
+  - [4. Structural global optimization using mixed integer linear or second order cone optimization (MILO and MISOCO)](#4-structural-global-optimization-using-mixed-integer-linear-or-second-order-cone-optimization-milo-and-misoco)
 
 <!-- # Research vision
 I design efficient and environmentally friendly aircraft by developing efficient algorithms and code implementation. 
@@ -38,25 +39,67 @@ The research vision that differentiates me from other labs working on MDO is lis
 
 # Research projects
 
-## 1. Modal analysis and time spectral method
+## 1. Modal analysis
 
-## 2. MDO + dynamical systems and control
+![Resolvent response mode on NASA CRM wing](../images/research/uvel_response_mode_top_view.png)
+*Velocity resolvent response mode on the NASA Common Research Model wing, computed using our matrix-free resolvent analysis framework.*
 
-Dynamical systems are universal.
-In the past several decades, the MDO community focused on dynamical systems classified as equilibrium points, and little previous research was on bifurcation, LCO, and chaotic systems.
-For example, the transonic buffet constraint, a bifurcation triggered by the shock wave and boundary layer interaction, has only recently been modeled using first principles in a high fidelity optimization problem \cite{Thomas2020}.
-Also, control theory, as a fundamental discipline in aerospace engineering, has been largely overlooked by the MDO community due to its high computational cost. 
-The question I am trying to answer in this research is:
-**How can we optimize a general high-fidelity model-based multidisciplinary dynamical system (with or without control) performance?**
-With this question successfully answered, a large class of problems can be modeled and solved using MDO. 
+Modal analysis decomposes dynamical systems into modes that reveal stability, frequency response, and dominant structures.
+**How can we perform modal analysis on large-scale engineering systems efficiently?**
 
-This is a very challenging question to answer, because of the model dimensionality (millions of state variables and thousands of design variables).
-My research partially answers the question by focusing on developing algorithms scale well with the design variables using the adjoint method.
-The key finding of the research is that each dynamical system has its own unique structure and the adjoint method shall be developed leveraging these structures to gain computational efficiency. 
-Two highlights of my previous research are: 
-1. I developed an algorithm demonstrating that the closed-loop control co-design problem can be solved at a cost independent of the number of design variables. 
-Using the algorithm, I optimized the drone aerodynamic shape which **reduces the control cost by about 30%**.
-1. I developed a **fundamental** method to discover the reverse algorithmic differentiation formula using the forward algorithmic differentiation formula for complex analytic equation and we are **the first to discover a succint eigenvalue derivative formula for a general complex matrix.
+Our research has two thrusts:
+
+**Differentiable modal analysis:**
+We develop adjoint-based differentiable modal analysis tools that enable gradient-based optimization.
+We developed the first **fully matrix-free resolvent analysis** for 3D aerodynamic systems, demonstrated on the NASA CRM with **1.8 million cells**.
+We also developed **differentiable resolvent analysis** for flow control optimization and **differentiable POD** for modal-centric field inversion.
+
+**Time-spectral modal analysis:**
+We extend modal analysis to time-periodic base flows using time-spectral discretization.
+We developed **spectral Floquet analysis** that computes stability of periodic orbits with spectral accuracy, and **time-spectral resolvent analysis** that extends frequency response analysis to periodically forced systems.
+
+__Publication:__
+
+
+|        |  |
+|   :-:    | -       |
+| <img src='../images/publication/uvel_response_mode_top_view.png' align="center" width="200" height="10"> | __Sicheng He__, Rohit Kanchi.  <br><br> __Matrix-Free Resolvent Analysis for Large-Scale Aerodynamic Systems__  <br><br> _in preparation_.|
+| <img src='../images/publication/resolvent_opt.png' align="center" width="200" height="10"> | __Sicheng He__, Shugo Kaneko, Daning Huang, Chi-An Yeh, Joaquim R. R. A. Martins.  <br><br> __Large-Scale Flow Control Performance Optimization via Differentiable Resolvent Analysis__  <br><br> _in preparation_.|
+| <img src='../images/publication/floquet.png' align="center" width="200" height="10"> | __Sicheng He__, Max Howell, Dan Wilson.  <br><br> __Spectral Floquet Analysis__  <br><br> _in preparation_.|
+| <img src='../images/publication/ts_resolvent.png' align="center" width="200" height="10"> | Max Howell, __Sicheng He__.  <br><br> [__Time-Spectral Resolvent Analysis for Periodic Dynamical Systems__](https://arxiv.org/abs/2602.15194)  <br><br> _arXiv preprint_ (2026).|
+| <img src='../images/publication/pod_overview.png' align="center" width="200" height="10"> | Rohit Sunil Kanchi, __Sicheng He__.  <br><br> [__Modal-Centric Field Inversion via Differentiable Proper Orthogonal Decomposition__](https://arxiv.org/abs/2601.14858)  <br><br> _arXiv preprint_ (2026).|
+| <img src='../images/publication/LST.png' align="center" width="200" height="10"> | __Sicheng He__, Eirikur Jonsson, Jichao Li, Joaquim R. R. A. Martins.  <br><br> [__Adjoint-Based Design Optimization of Stability Constrained Systems__](https://arc.aiaa.org/doi/10.2514/1.J064273)  <br><br> _AIAA Journal_ (2024).|
+| <img src='../images/publication/bif_stability.png' align="center" width="200" height="10"> | __Sicheng He__, Max Howell, Daning Huang, Eirikur Jonsson, Galen W. Ng, Joaquim R. R. A. Martins.  <br><br> [__Adjoint-based Hopf-bifurcation Instability Suppression via First Lyapunov Coefficient__](https://arxiv.org/abs/2511.03840)  <br><br> _arXiv preprint_ (2025).|
+
+
+## 2. Time spectral method
+
+![Torus time-spectral method for quasi-periodic systems](../images/research/torus.png)
+*A quasi-periodic trajectory on a torus—the torus time-spectral method solves for the solution directly on this manifold.*
+
+The time spectral method transforms time-dependent problems into frequency-domain systems, avoiding expensive time marching.
+**How can we extend the time spectral method to quasi-periodic dynamics with multiple incommensurate frequencies?**
+
+We developed the **torus time-spectral method (TTSM)** that lifts governing equations to an extended angular phase space and applies double-Fourier collocation on the invariant torus, achieving **spectral convergence**.
+Building on the time-spectral framework, we also developed **spectral Floquet analysis** and **time-spectral resolvent analysis** for stability and frequency response of periodic systems (see also [Modal analysis](#1-modal-analysis)).
+
+__Publication:__
+
+
+|        |  |
+|   :-:    | -       |
+| <img src='../images/publication/torus.png' align="center" width="200" height="10"> | __Sicheng He__, Hang Li, Kivanc Ekici.  <br><br> [__Torus Time-Spectral Method for Quasi-Periodic Problems__](https://arxiv.org/abs/2512.13631)  <br><br> _arXiv preprint_ (2025).|
+| <img src='../images/publication/torus_ts_wing.png' align="center" width="200" height="10"> | __Sicheng He__.  <br><br> __Torus Time-Spectral Method for Three-Dimensional Wing Oscillations with Two Incommensurate Frequencies__  <br><br> _in preparation_.|
+| <img src='../images/publication/floquet.png' align="center" width="200" height="10"> | __Sicheng He__, Max Howell, Dan Wilson.  <br><br> __Spectral Floquet Analysis__  <br><br> _in preparation_.|
+| <img src='../images/publication/ts_resolvent.png' align="center" width="200" height="10"> | Max Howell, __Sicheng He__.  <br><br> [__Time-Spectral Resolvent Analysis for Periodic Dynamical Systems__](https://arxiv.org/abs/2602.15194)  <br><br> _arXiv preprint_ (2026).|
+
+## 3. MDO + dynamical systems and control
+
+The MDO community has focused on steady-state systems, leaving bifurcation, LCO, and chaotic systems largely unaddressed.
+**How can we optimize general high-fidelity multidisciplinary dynamical systems with or without control?**
+
+We develop adjoint methods that exploit the unique structure of each dynamical system class for computational efficiency.
+Key results include: adjoint-based **control co-design** that reduces drone control cost by **~30%** at a cost independent of design variable count, and a **fundamental** reverse algorithmic differentiation method for complex analytic functions that yields the **first succinct eigenvalue derivative formula for general complex matrices**.
 
 ![baseline](../images/research/baseline.gif)
 ![optimized](../images/research/optimized.gif)
@@ -67,26 +110,18 @@ __Publication:__
 |        |  |
 |   :-:    | -       |  
 | <img src='../images/publication/codesign.png' align="center" width="200" height="10"> | __Sicheng He__, Shugo Kaneko, Eirikur Jonsson, Marco Mangano, Joaquim R. R. A. Martins.  <br><br> [__Control co-design sensitivity computation using the adjoint method__](https://www.researchgate.net/publication/362931690_Eigenvalue_problem_derivatives_computation_for_a_complex_matrix_using_the_adjoint_method)  <br><br> _submitted to SIAM applied dynamics (SIADS)_ (2022).|
-| <img src='../images/publication/LST.png' align="center" width="200" height="10"> | __Sicheng He__, Eirikur Jonsson, Joaquim R. R. A. Martins.  <br><br> [__Adjoint-based Linear stability constrained design optimization__](https://www.researchgate.net/publication/362931690_Eigenvalue_problem_derivatives_computation_for_a_complex_matrix_using_the_adjoint_method)  <br><br> _submitted to SIAM applied dynamics (SIADS)_ (2022).|
 | <img src='../images/publication/LCO_stability.png' align="center" width="200" height="10"> | __Sicheng He__, Eirikur Jonsson, Joaquim R. R. A. Martins.  <br><br> [__Adjoint-based Limit Cycle Oscillation Instability Sensitivity and Suppression__](https://www.researchgate.net/publication/363581644_Adjoint-based_Limit_Cycle_Oscillation_Instability_Sensitivity_and_Suppression)  <br><br> _Nonlinear dynamics_ (2022).|
 | <img src='../images/publication/complex_eigen.png' align="center" width="200" height="10"> | __Sicheng He__, Yayun Shi, Eirikur Jonsson, Joaquim R. R. A. Martins.  <br><br> [__Eigenvalue problem derivatives computation for a complex matrix using the adjoint method__](https://www.researchgate.net/publication/362931690_Eigenvalue_problem_derivatives_computation_for_a_complex_matrix_using_the_adjoint_method)  <br><br> _MSSP (accepted)_ (2023).|
 | <img src='../images/publication/eigenXDSM.png' align="center" width="200" height="10"> | __Sicheng He__, Eirikur Jonsson, and joaquim R. R. A. Martins.  <br><br> [__Derivatives for Eigenvalues and Eigenvectors via Analytic Reverse Algorithmic Differentiation__](https://arc.aiaa.org/doi/abs/10.2514/1.J060726?journalCode=aiaaj)  <br><br> _AIAA Journal_ (2022).|
 
 
-## 3. Machine learning in aerodynamic shape optimization
+## 4. Machine learning in aerodynamic shape optimization
 
-Surrogate models, including the classic and more recent machine learning models, are becoming essential tools for designers because they outperform a direct numerical analysis in speed with similar accuracy,and they can also solve problems without explicit numerical models.
-Compared with the classic tools (e.g., the kriging method), machine learning tools (e.g., the deep neural network) suffer less from overfitting and perform better when the data set is large.
-With the aforementioned benefits, we want to address the following question in our research:
-**How can we accelerate the optimization using machine learning?**
+**How can we accelerate aerodynamic shape optimization using machine learning?**
 
-
-We develop deep neural network-based models to answer this question.
-The key finding is that uniformly sampling design space is inefficient.
-The design space paramitrization and the sampling shall favor the region with good performance.
-As one highlight of the research, we are the first to apply the so-called Sobolev neural network, a gradient-enhanced neural network, to obtain the **state-of-the-art** accurate surrogate model for airfoil aerodynamic parameters, such as lift and drag.
-The proposed method enables **real-time** aerodynamic analysis and shape optimization, and it is one of the engines that drive the online airfoil simulation website, [Webfoil](http://webfoil.engin.umich.edu/)
-. 
+We develop gradient-enhanced neural network surrogate models for aerodynamic design.
+We are the first to apply Sobolev training (gradient-enhanced neural networks) to obtain **state-of-the-art** airfoil aerodynamic surrogates, enabling **real-time** analysis and optimization.
+This powers the online airfoil simulation website [Webfoil](http://webfoil.engin.umich.edu/).
 
 
 |        |  |
@@ -96,14 +131,28 @@ The proposed method enables **real-time** aerodynamic analysis and shape optimiz
 | <img src='../images/publication/stream.png' align="center" width="200" height="10"> | Jichao Li, __Sicheng He__, and Joaquim R. R. A. Martins. <br><br> [__Data-driven constraint approach to ensure low-speed performance in transonic aerodynamic shape optimization__](https://www.sciencedirect.com/science/article/pii/S1270963819304912)  <br><br> _Aerospace Science and Technology_ (2019).|
 
 
-## 4. Differentiable data assimilation
+## 5. Differentiable data assimilation
 
+Data assimilation combines computational models with observational data to produce accurate state estimates.
+Classical methods like the Kalman filter assume accurate system dynamics, but in practice the models are approximate.
+The question we address is:
+**How can we systematically reduce the mismatch between approximate and true system dynamics in state estimation?**
+
+We developed the **differentiable Kalman filter (DKF)**, an adjoint-based optimization framework that uses field inversion followed by neural network closure model training to correct model errors.
+The DKF achieves at least **90% reduction in state reconstruction error** compared to classical Kalman filters across various noise levels while maintaining robust uncertainty quantification.
+
+__Publication:__
+
+
+|        |  |
+|   :-:    | -       |
+| <img src='../images/publication/diff_kf.png' align="center" width="200" height="10"> | Yuan Wu, __Sicheng He__.  <br><br> [__DKFNet: Differentiable Kalman Filter for Field Inversion and Machine Learning__](https://arxiv.org/abs/2509.07474)  <br><br> _arXiv preprint_ (2025).|
 
 
 # Past research projects
 
 
-## 2. Aeroelastic optimization
+## 1. Aeroelastic optimization
 
 ![Flutter](../images/publication/flutter_fine_ezgif.gif)
 
@@ -129,7 +178,7 @@ I was awarded an AIAA Aviation Conference **best student paper award**.
 | <img src='../images/publication/flutter_fine_ezgif.gif' align="center" width="200" height="10"> | __Sicheng He__, Eirikur Jonsson, Charles A. Mader, and Joaquim R. R. A. Martins. <br><br> [__A coupled Newton–Krylov time-spectral solver for wing ﬂutter and LCO prediction__](https://arc.aiaa.org/doi/10.2514/6.2019-3549). <br><br> _In AIAA Aviation Forum, Dallas, TX, June 2019_. (Best student paper award, 2nd place)|
 
 
-## 4. Offshore Wind turbine aerostructural optimization
+## 2. Offshore Wind turbine aerostructural optimization
 
 ![Wind turbine](../images/research/wind_turbine.gif)
 
@@ -151,7 +200,7 @@ __Publication:__
 | <img src='../images/publication/FIG2.jpg' align="center" width="200" height="10"> | Denis-Gabriel Caprace, Adam Cardoza, Teagan Nakamoto, Andrew Ning, Marco Mangano, __Sicheng He__, and Joaquim R. R. A. Martins. <br><br> [__Incorporating high-ﬁdelity aerostructural analyses in wind turbine rotor optimization__](https://arc.aiaa.org/doi/abs/10.2514/6.2022-1290). <br><br> _In AIAA Scitech, San Diego, CA, January 2022. American Institute of Aeronautics and Astronautics_.|
 | <img src='../images/publication/Span_comparison.png' align="center" width="200" height="10"> | Marco Mangano, __Sicheng He__, Denis-Gabriel Caprace, Yingqian Liao, and Joaquim R. R. A. Martins. <br><br> [__Passive aeroelastic tailoring of large wind turbines using high-ﬁdelity multidisciplinary design optimization__](https://arc.aiaa.org/doi/abs/10.2514/6.2022-1289). <br><br> _In AIAA Scitech, San Diego, CA, January 2022. American Institute of Aeronautics and Astronautics_.|
 
-## 5. Aerodynamic shape optimization with laminar-turbulent transition model
+## 3. Aerodynamic shape optimization with laminar-turbulent transition model
 
 We apply gradient-based optimization to design more efficient airfoils with the laminar-turbulent transition modeled by the $e^n$ method. 
 To compute derivatives with large number of design variables, we use the adjoint method.
@@ -172,7 +221,7 @@ __Publication:__
 | <img src='../images/publication/foil.png' align="center" width="200" height="10"> | Yayun Shi, Charles A. Mader, __Sicheng He__, Gustavo L. O. Halila, and Joaquim R. R. A. Martins. <br><br> [__Natural laminarﬂow airfoil optimization design using a discrete adjoint approach__](https://arc.aiaa.org/doi/10.2514/1.J058944s)  <br><br> _AIAA Journal_ (2020).|
 | <img src='../images/publication/complex_eigen.png' align="center" width="200" height="10"> | __Sicheng He__, Yayun Shi, Eirikur Jonsson, Joaquim R. R. A. Martins.  <br><br> [__Eigenvalue problem derivatives computation for a complex matrix using the adjoint method__](https://www.researchgate.net/publication/362931690_Eigenvalue_problem_derivatives_computation_for_a_complex_matrix_using_the_adjoint_method)  <br><br> _MSSP (accepted)_ (2023).|
 
-## 6. Structural global optimization using mixed integer linear or second order cone optimization (MILO and MISOCO)
+## 4. Structural global optimization using mixed integer linear or second order cone optimization (MILO and MISOCO)
 
 The state-of-the-art of topology design optimization using solid isotropic material with penalization  (SIMP) solves the mixed integer nonlinear programming problem without any guarantee of global optimality.
 In this research, we try to address the following question: **How can we solve the topology and sizing optimization problem to their global optimality?**

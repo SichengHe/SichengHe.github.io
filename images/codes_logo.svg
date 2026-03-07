@@ -4,10 +4,6 @@
       <stop offset="0%" style="stop-color:#ff8200"/>
       <stop offset="100%" style="stop-color:#e07000"/>
     </linearGradient>
-    <linearGradient id="grayGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#555"/>
-      <stop offset="100%" style="stop-color:#333"/>
-    </linearGradient>
   </defs>
 
   <!-- Code brackets icon -->
@@ -20,25 +16,25 @@
     <path d="M 55 10 L 80 40 L 55 70"
           fill="none" stroke="url(#orangeGrad)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <!-- Slash / in middle - dark gray -->
-    <line x1="52" y1="15" x2="38" y2="65" stroke="url(#grayGrad)" stroke-width="5" stroke-linecap="round"/>
+    <!-- Slash / in middle - black -->
+    <line x1="52" y1="15" x2="38" y2="65" stroke="#222" stroke-width="5" stroke-linecap="round"/>
   </g>
 
   <!-- CODES text -->
   <text x="100" y="58" font-family="Verdana, sans-serif" font-size="48" font-weight="700">
-    <tspan fill="url(#orangeGrad)">C</tspan><tspan fill="#333">O</tspan><tspan fill="#555">D</tspan><tspan fill="#333">E</tspan><tspan fill="#555">S</tspan>
+    <tspan fill="url(#orangeGrad)">C</tspan><tspan fill="#222">ODES</tspan>
   </text>
 
   <!-- Group text -->
-  <text x="310" y="58" font-family="Verdana, sans-serif" font-size="48" font-weight="400" fill="#777">
+  <text x="310" y="58" font-family="Verdana, sans-serif" font-size="48" font-weight="400" fill="#444">
     Group
   </text>
 
   <!-- Subtitle -->
-  <text x="101" y="82" font-family="Verdana, sans-serif" font-size="10" fill="#888" letter-spacing="0.3">
+  <text x="101" y="82" font-family="Verdana, sans-serif" font-size="10" fill="#666" letter-spacing="0.3">
     Computational Optimization for Dynamics &amp; Engineering Systems
   </text>
 
   <!-- Decorative line -->
-  <line x1="100" y1="90" x2="450" y2="90" stroke="#ddd" stroke-width="1"/>
+  <line x1="100" y1="90" x2="450" y2="90" stroke="#ccc" stroke-width="1"/>
 </svg>

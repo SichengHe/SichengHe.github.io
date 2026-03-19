@@ -7,7 +7,9 @@ redirect_from:
   - /resume
 ---
 
-*To develop structured and differentiable representations of complex dynamical systems that enable scalable analysis, physical insight, and optimal design.*
+<div style="background: #fff8f0; border-left: 4px solid #ff8200; padding: 0.75em 1em; margin-bottom: 1em; font-style: italic; color: #333;">
+<strong style="font-style: normal;">Our mission:</strong> To develop structured and differentiable representations of complex dynamical systems that enable scalable analysis, physical insight, and optimal design.
+</div>
 
 Our research is organized around three pillars: (1) **structured representations** of nonlinear dynamics, (2) **operator-theoretic analysis** and interpretable reduced coordinates, and (3) **optimization, control, and learning** of dynamical systems.
 

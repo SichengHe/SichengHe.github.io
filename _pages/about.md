@@ -341,11 +341,11 @@ redirect_from:
 
   <div class="welcome-section">
     <h2>Welcome</h2>
+    <div style="background: #fff8f0; border-left: 4px solid #ff8200; padding: 0.75em 1em; margin-bottom: 1em; font-style: italic; color: #333;">
+      <strong style="font-style: normal;">Our mission:</strong> To develop structured and differentiable representations of complex dynamical systems that enable scalable analysis, physical insight, and optimal design.
+    </div>
     <p>
-      The <strong>CODES Group</strong> focuses on enabling design optimization for large-scale dynamical systems. Our research bridges computational methods, optimization theory, and engineering applications to solve challenging problems in aerospace, energy, and beyond.
-    </p>
-    <p>
-      We develop efficient algorithms and tools for <strong>multidisciplinary design optimization (MDO)</strong>, <strong>control co-design</strong>, and <strong>computational physics</strong>. Our work spans from theoretical foundations to practical applications in aircraft design, wind turbines, and structural systems.
+      The <strong>CODES Group</strong> develops mathematical and computational frameworks to <strong>represent</strong>, <strong>interpret</strong>, and <strong>optimize</strong> complex nonlinear dynamical systems, with emphasis on oscillatory, multiscale, and fluid-structure phenomena.
     </p>
     <p>
       <a href="/research/" class="btn-primary">Explore Our Research</a>
@@ -389,36 +389,27 @@ redirect_from:
   <h2>Research Areas</h2>
   <div class="research-grid">
     <div class="research-card">
-      <h4>Optimization</h4>
+      <h4>Structured Representations</h4>
       <ul>
-        <li>PDE-constrained optimization</li>
+        <li>Time-spectral methods</li>
+        <li>Torus methods for quasi-periodic dynamics</li>
+        <li>Floquet stability theory</li>
+      </ul>
+    </div>
+    <div class="research-card">
+      <h4>Operator-Theoretic Analysis</h4>
+      <ul>
+        <li>Resolvent analysis</li>
+        <li>Differentiable modal decompositions</li>
+        <li>Optimization-compatible reduced coordinates</li>
+      </ul>
+    </div>
+    <div class="research-card">
+      <h4>Optimization, Control & Learning</h4>
+      <ul>
+        <li>Adjoint-based stability optimization</li>
         <li>Multidisciplinary design optimization</li>
-        <li>Mixed integer programming</li>
-        <li>Machine learning surrogates</li>
-      </ul>
-    </div>
-    <div class="research-card">
-      <h4>Dynamics & Control</h4>
-      <ul>
-        <li>Control co-design (CCD)</li>
-        <li>Stability constrained optimization</li>
-        <li>Limit cycle oscillation</li>
-      </ul>
-    </div>
-    <div class="research-card">
-      <h4>Computational Physics</h4>
-      <ul>
-        <li>Computational fluid dynamics</li>
-        <li>Computational aeroelasticity</li>
-        <li>Laminar-turbulent transition</li>
-      </ul>
-    </div>
-    <div class="research-card">
-      <h4>Applications</h4>
-      <ul>
-        <li>Aircraft wing design</li>
-        <li>Wind turbine optimization</li>
-        <li>Structural topology optimization</li>
+        <li>Scientific ML for inference and design</li>
       </ul>
     </div>
   </div>

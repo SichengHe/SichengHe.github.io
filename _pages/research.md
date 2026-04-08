@@ -20,12 +20,15 @@ Our research is organized around three pillars: (1) **structured representations
 ![Torus time-spectral method for quasi-periodic systems](../images/research/torus.png)
 *A quasi-periodic trajectory on a torus—the torus time-spectral method solves for the solution directly on this manifold.*
 
+![Coupled time-spectral aeroelastic wing oscillation](../images/publication/wing_tsm_oscillation.gif)
+*Forced periodic oscillation of a flexible wing computed with our coupled time-spectral aeroelastic solver, capturing the fluid–structure response in the frequency domain at a fraction of the cost of time marching.*
+
 **How do we build compact, structured representations of nonlinear time-dependent dynamics?**
 
 We develop spectral and frequency-domain frameworks that replace brute-force time marching with structure-exploiting representations of periodic and quasi-periodic behavior.
 Our work follows a natural progression: **represent** the motion via time-spectral methods, **generalize** to multi-frequency motion via torus methods, and **characterize stability** of the represented motion via Floquet theory.
 
-Key contributions include the **torus time-spectral method (TTSM)** that lifts governing equations to an extended angular phase space with **spectral convergence**, **spectral Floquet analysis** for orbital stability of periodic systems, and **time-spectral resolvent analysis** for frequency response of periodically varying base flows.
+Key contributions include the **torus time-spectral method (TTSM)** that lifts governing equations to an extended angular phase space with **spectral convergence**, **spectral Floquet analysis** for orbital stability of periodic systems, **time-spectral resolvent analysis** for frequency response of periodically varying base flows, and the **first fully coupled CFD–FEA time-spectral aeroelastic solver** that captures forced periodic wing oscillations in the frequency domain at a **fraction of the cost** of time marching at a fraction of the cost of time marching.
 
 __Publication:__
 
@@ -36,6 +39,7 @@ __Publication:__
 | <img src='../images/publication/torus_ts_wing.png' align="center" width="200" height="10"> | __Sicheng He__, Rohit Kanchi.  <br><br> __Torus Time-Spectral Method for Three-Dimensional Wing Oscillations with Two Incommensurate Frequencies__  <br><br> _in preparation_.|
 | <img src='../images/publication/floquet.png' align="center" width="200" height="10"> | __Sicheng He__, Max Howell, Dan Wilson.  <br><br> __Spectral Floquet Analysis__  <br><br> _in preparation_.|
 | <img src='../images/publication/ts_resolvent.png' align="center" width="200" height="10"> | Max Howell, __Sicheng He__.  <br><br> [__Time-Spectral Resolvent Analysis for Periodic Dynamical Systems__](https://arxiv.org/abs/2602.15194)  <br><br> _arXiv preprint_ (2026).|
+| <img src='../images/publication/wing_tsm_oscillation.gif' align="center" width="200" height="10"> | __Sicheng He__.  <br><br> __Coupled Time-Spectral Aeroelastic Analysis Using High-Fidelity CFD and Finite Element Structural Models__  <br><br> _in preparation_.|
 
 
 ## 2. Operator-theoretic analysis and interpretable reduced coordinates

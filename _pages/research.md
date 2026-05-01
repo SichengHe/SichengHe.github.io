@@ -73,6 +73,20 @@ We combine adjoint methods, multidisciplinary optimization, and scientific machi
 
 Key contributions include adjoint-based **stability-constrained design optimization**, **Hopf-bifurcation instability suppression** via the first Lyapunov coefficient, adjoint-based **control co-design**, a **fundamental** reverse algorithmic differentiation method for complex analytic functions yielding the **first succinct eigenvalue derivative formula for general complex matrices**, gradient-enhanced **neural network surrogates** for real-time aerodynamic analysis ([Webfoil](http://webfoil.engin.umich.edu/)), and the **differentiable Kalman filter** for physics-informed state estimation with **90% error reduction**.
 
+**Research highlight: 3D transonic buffet**
+
+Three-dimensional transonic buffet is a self-excited aerodynamic instability that emerges through a **Hopf bifurcation**, producing sustained unsteady shock motion and lift oscillations on swept wings.
+The simulation below was computed using [ADflow](https://github.com/mdolab/adflow), a state-of-the-art RANS-based finite-volume solver, on NASA's [Common Research Model (CRM)](https://commonresearchmodel.larc.nasa.gov/) wing in the wing-only configuration.
+The flight condition is **Mach 0.85**, **angle of attack 4.2 deg**, and **Reynolds number 5 million**.
+
+<div style="margin: 1.25em 0;">
+  <video controls playsinline preload="metadata" poster="../images/research/transonic_buffet_3d_tile.png" style="width: 100%; max-width: 1100px; background: #000; border: 1px solid #d8d8d8; border-radius: 6px;">
+    <source src="../assets/videos/transonic-buffet-3d-crm.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <p style="margin-top: 0.5em;"><em>A tiled view of the 3D buffet dynamics on the CRM wing showing the Q-criterion isosurface, density, pressure coefficient with shock isosurface, spanwise velocity, spanwise vorticity, and lift-coefficient history.</em></p>
+</div>
+
 ![baseline](../images/research/baseline.gif)
 ![optimized](../images/research/optimized.gif)
 

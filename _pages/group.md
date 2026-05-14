@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CODES Group"
+title: "XD² Lab"
 permalink: /group/
 author_profile: false
 redirect_from:
@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <p style="text-align: center; font-size: 1.1em; color: #666; margin-bottom: 2em;">
-<strong>C</strong>omputational <strong>O</strong>ptimization for <strong>D</strong>ynamics and <strong>E</strong>ngineering <strong>S</strong>ystems
+e<strong>X</strong>treme-condition <strong>D</strong>ynamics & <strong>D</strong>esign Lab
 </p>
 
 <style>

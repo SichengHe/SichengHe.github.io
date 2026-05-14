@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120">
+  <defs>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff8200"/>
+      <stop offset="100%" style="stop-color:#e07000"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Buffeting airfoil icon (slight AoA) -->
+  <g transform="translate(48, 56) rotate(-6)">
+    <!-- NACA-style cambered airfoil: round LE, sharp TE -->
+    <path d="M -35 0
+             C -35 -8, -27 -10, -14 -8
+             C 0 -7, 20 -3, 35 0
+             C 20 2, 5 3, -7 3
+             C -20 3, -35 5, -35 0 Z"
+          fill="#222"/>
+
+    <!-- Oscillating shock wave from upper surface at ~60% chord -->
+    <path d="M 7 -6
+             Q 15 -14, 5 -22
+             Q -5 -30, 11 -38
+             Q 19 -44, 8 -50"
+          fill="none" stroke="url(#orangeGrad)" stroke-width="3.5"
+          stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- XD wordmark -->
+  <text x="100" y="58" font-family="Verdana, sans-serif" font-size="48" font-weight="700">
+    <tspan fill="url(#orangeGrad)">X</tspan><tspan fill="#222">D</tspan>
+  </text>
+
+  <!-- Superscript 2 (close to D) -->
+  <text x="168" y="32" font-family="Verdana, sans-serif" font-size="28" font-weight="700" fill="#222">2</text>
+
+  <!-- Lab text -->
+  <text x="200" y="58" font-family="Verdana, sans-serif" font-size="48" font-weight="400" fill="#444">Lab</text>
+
+  <!-- Subtitle -->
+  <text x="101" y="82" font-family="Verdana, sans-serif" font-size="10" fill="#666" letter-spacing="0.3">
+    Extreme-Condition Dynamics &amp; Design Lab
+  </text>
+
+  <!-- Decorative line -->
+  <line x1="100" y1="90" x2="450" y2="90" stroke="#ccc" stroke-width="1"/>
+</svg>

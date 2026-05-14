@@ -7,10 +7,10 @@
 
 # Site Settings
 locale: "en-US"
-title: "CODES Group"
+title: "XD² Lab"
 title_separator: "-"
-name: &name "CODES Group"
-description: &description "Computational Optimization for Dynamics and Engineering Systems"
+name: &name "XD² Lab"
+description: &description "Extreme-Condition Dynamics & Design Lab"
 url: https://SichengHe.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
 repository: "SichengHe/SichengHe.github.io"
@@ -78,9 +78,9 @@ analytics:
 
 # Site Author
 author:
-  name: "CODES Group"
+  name: "XD² Lab"
   avatar: "sicheng_utk.png"
-  bio: "Computational Optimization for Dynamics and Engineering Systems"
+  bio: "Extreme-Condition Dynamics & Design Lab"
   location: "University of Tennessee, Knoxville"
   employer:
   pubmed:

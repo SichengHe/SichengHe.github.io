@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: " "
-excerpt: "Computational Optimization for Dynamics and Engineering Systems"
+excerpt: "Extreme-Condition Dynamics & Design Lab"
 author_profile: false
 redirect_from:
   - /about/
@@ -308,8 +308,8 @@ redirect_from:
 
 <!-- Hero Section -->
 <div class="hero-section">
-  <h1>CODES Group</h1>
-  <p class="tagline">Computational Optimization for Dynamics and Engineering Systems — at the interface of optimization, dynamics, and computational physics</p>
+  <h1>XD<sup>2</sup> Lab</h1>
+  <p class="tagline">Extreme-Condition Dynamics &amp; Design Lab — designing systems that operate near their instability limits</p>
 </div>
 
 <div class="main-content">
@@ -345,7 +345,7 @@ redirect_from:
       <strong style="font-style: normal;">Our mission:</strong> To develop structured and differentiable representations of complex dynamical systems that enable scalable analysis, physical insight, and optimal design.
     </div>
     <p>
-      The <strong>CODES Group</strong> develops mathematical and computational frameworks to <strong>represent</strong>, <strong>interpret</strong>, and <strong>optimize</strong> complex nonlinear dynamical systems, with emphasis on oscillatory, multiscale, and fluid-structure phenomena.
+      The <strong>XD<sup>2</sup> Lab</strong> develops mathematical and computational frameworks to <strong>represent</strong>, <strong>interpret</strong>, and <strong>optimize</strong> complex nonlinear dynamical systems — with emphasis on engineering systems that operate near their instability limits.
     </p>
     <p>
       <a href="/research/" class="btn-primary">Explore Our Research</a>
@@ -364,7 +364,7 @@ redirect_from:
     </div>
     <div class="news-item">
       <div class="news-date">Dec 2024</div>
-      <div class="news-content">New CODES Group website launched!</div>
+      <div class="news-content">New lab website launched!</div>
     </div>
     <div class="news-item">
       <div class="news-date">Aug 2023</div>
@@ -418,7 +418,7 @@ redirect_from:
 </div>
 
 <div class="site-footer">
-  <p>CODES Group &bull; University of Tennessee, Knoxville &bull; Department of MAE</p>
+  <p>XD<sup>2</sup> Lab &bull; University of Tennessee, Knoxville &bull; Department of MAE</p>
   <div class="visitor-map">
     <a href="http://www.clustrmaps.com/map/Sichenghe.github.io" title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=_FCUdA8m1kkps-ZJKEs1uZLeMOm04rrtG03Kyii-QKw" /></a>
   </div>

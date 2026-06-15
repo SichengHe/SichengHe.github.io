@@ -359,6 +359,10 @@ redirect_from:
   <div class="news-section">
     <h2>Latest News</h2>
     <div class="news-item">
+      <div class="news-date">Jun 2026</div>
+      <div class="news-content">Rohit Kanchi wins <strong>2026 AIAA Aviation MDO Best Student Paper Runner-Up</strong> ($1,000)!</div>
+    </div>
+    <div class="news-item">
       <div class="news-date">Dec 2025</div>
       <div class="news-content">Rohit Kanchi and Ben Melanson presenting at <strong>NeurIPS 2025</strong>!</div>
     </div>

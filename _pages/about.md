@@ -360,7 +360,7 @@ redirect_from:
     <h2>Latest News</h2>
     <div class="news-item">
       <div class="news-date">Jun 2026</div>
-      <div class="news-content">Rohit Kanchi wins <strong>2026 AIAA Aviation MDO Best Student Paper Runner-Up</strong> ($1,000)!</div>
+      <div class="news-content"><i class="fas fa-trophy" style="color: #ff8200;"></i> Rohit Kanchi wins <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7471734366985973760/" target="_blank"><strong>2026 AIAA Aviation MDO Best Student Paper Runner-Up</strong></a> ($1,000) &mdash; <a href="https://arxiv.org/abs/2605.04884" target="_blank">paper</a>.</div>
     </div>
     <div class="news-item">
       <div class="news-date">Dec 2025</div>

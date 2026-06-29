@@ -371,6 +371,10 @@ redirect_from:
       <div class="news-content"><i class="fas fa-trophy" style="color: #ff8200;"></i> Rohit Kanchi wins <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7471734366985973760/" target="_blank"><strong>2026 AIAA Aviation MDO Best Student Paper Runner-Up</strong></a> ($1,000) &mdash; <a href="https://arxiv.org/abs/2605.04884" target="_blank">paper</a>.</div>
     </div>
     <div class="news-item">
+      <div class="news-date">Jun 2026</div>
+      <div class="news-content">Congrats to Ben Melanson on accepting a position at <a href="https://www.navsea.navy.mil/home/warfare-centers/" target="_blank"><strong>Naval Surface Warfare Center (NSWC)</strong></a> &mdash; important next step in his career!</div>
+    </div>
+    <div class="news-item">
       <div class="news-date">Dec 2025</div>
       <div class="news-content"><i class="fas fa-file-alt" style="color: #ff8200;"></i> Rohit Kanchi and Ben Melanson presenting at <strong>NeurIPS 2025</strong>!</div>
     </div>
@@ -436,6 +440,6 @@ redirect_from:
 <div class="site-footer">
   <p>XD<sup>2</sup> Lab &bull; University of Tennessee, Knoxville &bull; Department of MAE</p>
   <div class="visitor-map">
-    <a href="http://www.clustrmaps.com/map/Sichenghe.github.io" title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=_FCUdA8m1kkps-ZJKEs1uZLeMOm04rrtG03Kyii-QKw" /></a>
+    <script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=13fnBL0WWMasezpthb_PqVThnpZb0NI-qMs3OmztsIE"></script>
   </div>
 </div>

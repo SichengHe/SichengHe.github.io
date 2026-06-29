@@ -80,24 +80,20 @@ masters_students:
     links:
       linkedin: "https://www.linkedin.com/in/yuan-wu-5a977b32a/"
 
-undergraduate_students:
-  - name: "Benjamin Melanson"
-    photo: "/images/team/benjamin_melanson.jpg"
-    position: "Undergraduate Researcher"
-    affiliation: "University of Tennessee, Knoxville"
-    education:
-      - degree: "B.S."
-        field: ""
-        institution: "University of Tennessee, Knoxville"
-        year: 2026
-    links:
-      linkedin: "https://www.linkedin.com/in/benjamin-melanson/"
-      email: "bmelanso@vols.utk.edu"
-      github: "https://github.com/BenjaminMelanson"
-      personal_website: "http://benmelanson.com/"
+undergraduate_students: []
 
 # Alumni section - add graduated students here
 alumni:
+  - name: "Benjamin Melanson"
+    photo: "/images/team/benjamin_melanson.jpg"
+    degree: "B.S."
+    graduation_year: 2026
+    first_position: "Naval Surface Warfare Center"
+    current_position: "Naval Surface Warfare Center"
+    links:
+      linkedin: "https://www.linkedin.com/in/benjamin-melanson/"
+      github: "https://github.com/BenjaminMelanson"
+      personal_website: "http://benmelanson.com/"
   # - name: "Former Student"
   #   photo: "/images/team/former_student.jpg"
   #   degree: "Ph.D."

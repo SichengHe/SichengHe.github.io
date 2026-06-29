@@ -372,7 +372,7 @@ redirect_from:
     </div>
     <div class="news-item">
       <div class="news-date">Jun 2026</div>
-      <div class="news-content">Congrats to Ben Melanson on accepting a position at <a href="https://www.navsea.navy.mil/home/warfare-centers/" target="_blank"><strong>Naval Surface Warfare Center (NSWC)</strong></a> &mdash; important next step in his career!</div>
+      <div class="news-content"><i class="fas fa-briefcase" style="color: #ff8200;"></i> Congrats to Ben Melanson on accepting a position at <a href="https://www.navsea.navy.mil/home/warfare-centers/" target="_blank"><strong>Naval Surface Warfare Center (NSWC)</strong></a> &mdash; important next step in his career!</div>
     </div>
     <div class="news-item">
       <div class="news-date">Dec 2025</div>

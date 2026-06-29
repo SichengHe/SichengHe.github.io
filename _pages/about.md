@@ -359,8 +359,12 @@ redirect_from:
   <div class="news-section">
     <h2>Latest News</h2>
     <div class="news-item">
+      <div class="news-date">Jul 2026</div>
+      <div class="news-content"><i class="fas fa-file-alt" style="color: #ff8200;"></i> Rohit Kanchi to present at the prestigious <a href="https://www.nas.nasa.gov/pubs/ams.html" target="_blank"><strong>NASA Ames Applied Modeling &amp; Simulation Seminar</strong></a> on July 2.</div>
+    </div>
+    <div class="news-item">
       <div class="news-date">Jun 2026</div>
-      <div class="news-content">Paper <em>&ldquo;SurGE: Surrogate Gradient-guided Evolution for Co-design of Legged Robots with Parallel Elasticity&rdquo;</em> accepted at <strong>IROS 2026</strong> &mdash; led by <a href="https://silvery107.github.io" target="_blank">Yulun Zhuang</a> and <a href="https://sites.google.com/view/yanranding/home" target="_blank">Yanran Ding</a> (UMich).</div>
+      <div class="news-content"><i class="fas fa-file-alt" style="color: #ff8200;"></i> Paper <em>&ldquo;SurGE: Surrogate Gradient-guided Evolution for Co-design of Legged Robots with Parallel Elasticity&rdquo;</em> accepted at <strong>IROS 2026</strong> &mdash; led by <a href="https://silvery107.github.io" target="_blank">Yulun Zhuang</a> and <a href="https://sites.google.com/view/yanranding/home" target="_blank">Yanran Ding</a> (UMich).</div>
     </div>
     <div class="news-item">
       <div class="news-date">Jun 2026</div>
@@ -368,7 +372,11 @@ redirect_from:
     </div>
     <div class="news-item">
       <div class="news-date">Dec 2025</div>
-      <div class="news-content">Rohit Kanchi and Ben Melanson presenting at <strong>NeurIPS 2025</strong>!</div>
+      <div class="news-content"><i class="fas fa-file-alt" style="color: #ff8200;"></i> Rohit Kanchi and Ben Melanson presenting at <strong>NeurIPS 2025</strong>!</div>
+    </div>
+    <div class="news-item">
+      <div class="news-date">Jul 2025</div>
+      <div class="news-content"><i class="fas fa-seedling" style="color: #ff8200;"></i> Seed grant from <a href="https://research.utk.edu/aitn/" target="_blank">UTK AI Tennessee Initiative</a> for AI research led by <a href="https://ne.utk.edu/people/vladimir-sobes/" target="_blank">Vladimir Sobes</a> ($50K total, $25K share).</div>
     </div>
     <div class="news-item">
       <div class="news-date">Dec 2024</div>

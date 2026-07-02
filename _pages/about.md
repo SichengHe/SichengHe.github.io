@@ -440,6 +440,13 @@ redirect_from:
 <div class="site-footer">
   <p>XD<sup>2</sup> Lab &bull; University of Tennessee, Knoxville &bull; Department of MAE</p>
   <div class="visitor-map">
-    <script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=13fnBL0WWMasezpthb_PqVThnpZb0NI-qMs3OmztsIE"></script>
+    <script>
+      window.addEventListener('load', function() {
+        var s = document.createElement('script');
+        s.id = 'mmvst_globe';
+        s.src = '//mapmyvisitors.com/globe.js?d=13fnBL0WWMasezpthb_PqVThnpZb0NI-qMs3OmztsIE';
+        document.querySelector('.visitor-map').appendChild(s);
+      });
+    </script>
   </div>
 </div>

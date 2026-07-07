@@ -80,7 +80,12 @@ masters_students:
     links:
       linkedin: "https://www.linkedin.com/in/yuan-wu-5a977b32a/"
 
-undergraduate_students: []
+undergraduate_students:
+  - name: "Stephen Xiao"
+    photo: "/images/team/stephen_xiao.jpg"
+    position: "Undergraduate Researcher"
+    affiliation: "Georgia Institute of Technology"
+    links: {}
 
 # Alumni section - add graduated students here
 alumni:

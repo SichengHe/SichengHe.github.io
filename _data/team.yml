@@ -81,6 +81,12 @@ masters_students:
       linkedin: "https://www.linkedin.com/in/yuan-wu-5a977b32a/"
 
 undergraduate_students:
+  - name: "Jason Le"
+    photo: "/images/team/jason_le.jpg"
+    position: "Undergraduate Researcher"
+    affiliation: "University of Tennessee, Knoxville"
+    links: {}
+
   - name: "Stephen Xiao"
     photo: "/images/team/stephen_xiao.jpg"
     position: "Undergraduate Researcher"

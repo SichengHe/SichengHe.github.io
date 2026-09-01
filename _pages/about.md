@@ -359,6 +359,14 @@ redirect_from:
   <div class="news-section">
     <h2>Latest News</h2>
     <div class="news-item">
+      <div class="news-date">Aug 2026</div>
+      <div class="news-content"><i class="fas fa-trophy" style="color: #ff8200;"></i> Jason Le receives the UTK <a href="https://studentsuccess.utk.edu/urf/scholarly-development-grants-sdgs/" target="_blank"><strong>Scholarly Development Grant &ndash; Research Assistant (SDG&ndash;RA) Award</strong></a> &mdash; congrats!</div>
+    </div>
+    <div class="news-item">
+      <div class="news-date">Aug 2026</div>
+      <div class="news-content"><i class="fas fa-briefcase" style="color: #ff8200;"></i> Congrats to Max Howell on accepting a position at <a href="https://www.rtx.com/raytheon" target="_blank"><strong>Raytheon</strong></a> &mdash; an exciting next step!</div>
+    </div>
+    <div class="news-item">
       <div class="news-date">Jul 2026</div>
       <div class="news-content"><i class="fas fa-file-alt" style="color: #ff8200;"></i> Rohit Kanchi to present at the prestigious <a href="https://www.nas.nasa.gov/pubs/ams.html" target="_blank"><strong>NASA Ames Applied Modeling &amp; Simulation Seminar</strong></a> on July 2.</div>
     </div>

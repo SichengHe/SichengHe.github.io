@@ -365,6 +365,22 @@ redirect_from:
   <div class="news-section">
     <h2>Latest News</h2>
     <div class="news-item">
+      <div class="news-date">Sep 2026</div>
+      <div class="news-content"><i class="fas fa-file-alt" style="color: var(--lab-primary);"></i> Paper accepted at the NeurIPS 2026 <a href="https://representations-physical-sciences.github.io/workshop-2026/" target="_blank"><strong>Workshop on Representations for the Physical Sciences (RPS)</strong></a> in Paris.</div>
+    </div>
+    <div class="news-item">
+      <div class="news-date">Sep 2026</div>
+      <div class="news-content"><i class="fas fa-file-alt" style="color: var(--lab-primary);"></i> Paper <em>&ldquo;Hydroelastic Optimization of Submerged Composite Foils with Flutter and Ventilation Constraints&rdquo;</em> accepted in <strong>Structural and Multidisciplinary Optimization</strong> &mdash; led by Galen Ng (UMich MDO Lab).</div>
+    </div>
+    <div class="news-item">
+      <div class="news-date">Sep 2026</div>
+      <div class="news-content"><i class="fas fa-file-alt" style="color: var(--lab-primary);"></i> Paper <em>&ldquo;Efficient Adjoint-based Design Optimization with Optimal Control&rdquo;</em> accepted in the <strong>ASME Journal of Mechanical Design</strong>.</div>
+    </div>
+    <div class="news-item">
+      <div class="news-date">Aug 2026</div>
+      <div class="news-content"><i class="fas fa-file-alt" style="color: var(--lab-primary);"></i> Paper <em>&ldquo;Eigenvalue- and Gradient-Aware Optimization for Small-Signal Stability via the Adjoint Method&rdquo;</em> published in <a href="https://doi.org/10.1109/TPWRS.2026.3725599" target="_blank"><strong>IEEE Transactions on Power Systems</strong></a> &mdash; with Jianing Chen, Yan Li, and Daning Huang.</div>
+    </div>
+    <div class="news-item">
       <div class="news-date">Aug 2026</div>
       <div class="news-content"><i class="fas fa-trophy" style="color: var(--lab-primary);"></i> Jason Le receives the UTK <a href="https://studentsuccess.utk.edu/urf/scholarly-development-grants-sdgs/" target="_blank"><strong>Scholarly Development Grant &ndash; Research Assistant (SDG&ndash;RA) Award</strong></a> &mdash; congrats!</div>
     </div>
@@ -387,6 +403,10 @@ redirect_from:
     <div class="news-item">
       <div class="news-date">Jun 2026</div>
       <div class="news-content"><i class="fas fa-briefcase" style="color: var(--lab-primary);"></i> Congrats to Ben Melanson on accepting a position at <a href="https://www.navsea.navy.mil/home/warfare-centers/" target="_blank"><strong>Naval Surface Warfare Center (NSWC)</strong></a> &mdash; important next step in his career!</div>
+    </div>
+    <div class="news-item">
+      <div class="news-date">Mar 2026</div>
+      <div class="news-content"><i class="fas fa-file-alt" style="color: var(--lab-primary);"></i> Paper <em>&ldquo;Training-Free Score-Based Diffusion for Parameter-Dependent Stochastic Dynamical Systems&rdquo;</em> accepted in <a href="https://doi.org/10.3934/acse.2026005" target="_blank"><strong>Advances in Computational Science and Engineering</strong></a> &mdash; with Minglei Yang.</div>
     </div>
     <div class="news-item">
       <div class="news-date">Dec 2025</div>

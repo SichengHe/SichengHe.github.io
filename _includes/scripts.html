@@ -1,4 +1,11 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
+<script>
+  // Publication tables written as `| | |` render an empty header row; hide it
+  document.querySelectorAll('.page__content thead, .archive thead').forEach(function (thead) {
+    if (!thead.textContent.trim()) thead.style.display = 'none';
+  });
+</script>
+
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}

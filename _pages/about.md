@@ -11,7 +11,7 @@ redirect_from:
 <style>
 /* Hero Section */
 .hero-section {
-  background: linear-gradient(135deg, #ff8200 0%, #e07000 100%);
+  background: var(--lab-primary);
   color: white;
   padding: 3em 2em;
   margin: -1em -1em 2em -1em;
@@ -21,11 +21,13 @@ redirect_from:
 .hero-section h1 {
   font-size: 2.8em;
   margin: 0 0 0.25em 0;
-  font-weight: 700;
+  font-weight: 400;
+  color: white;
 }
 
 .hero-section .tagline {
   font-size: 1.3em;
+  font-weight: 300;
   opacity: 0.95;
   max-width: 700px;
   margin: 0 auto;
@@ -67,7 +69,6 @@ redirect_from:
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
-  border: 4px solid #ff8200;
   margin-bottom: 1em;
 }
 
@@ -111,7 +112,7 @@ redirect_from:
 }
 
 .profile-card .social-links a:hover {
-  background: #ff8200;
+  background: var(--lab-primary);
   color: white;
 }
 
@@ -128,7 +129,7 @@ redirect_from:
 
 .contact-info i {
   width: 20px;
-  color: #ff8200;
+  color: var(--lab-primary);
 }
 
 /* Welcome Section */
@@ -137,11 +138,12 @@ redirect_from:
 }
 
 .welcome-section h2 {
-  color: #ff8200;
-  font-size: 1.6em;
+  color: var(--lab-heading);
+  font-size: 1.8em;
+  font-weight: 400;
   margin-top: 0;
   margin-bottom: 0.75em;
-  border-bottom: 2px solid #ff8200;
+  border-bottom: 1px solid var(--lab-rule);
   padding-bottom: 0.5em;
 }
 
@@ -157,11 +159,12 @@ redirect_from:
 }
 
 .news-section h2 {
-  color: #ff8200;
-  font-size: 1.6em;
+  color: var(--lab-heading);
+  font-size: 1.8em;
+  font-weight: 400;
   margin-top: 0;
   margin-bottom: 0.75em;
-  border-bottom: 2px solid #ff8200;
+  border-bottom: 1px solid var(--lab-rule);
   padding-bottom: 0.5em;
 }
 
@@ -177,9 +180,10 @@ redirect_from:
 }
 
 .news-date {
-  flex: 0 0 70px;
+  flex: 0 0 80px;
+  white-space: nowrap;
   font-size: 0.9em;
-  color: #b31b1b;
+  color: var(--lab-primary);
   font-weight: 600;
 }
 
@@ -191,7 +195,7 @@ redirect_from:
 }
 
 .news-content a {
-  color: #b31b1b;
+  color: var(--lab-link);
 }
 
 .news-content strong {
@@ -204,15 +208,16 @@ redirect_from:
 }
 
 .openings-box {
-  background: #fff8f0;
-  border: 2px solid #ff8200;
+  background: var(--lab-tint);
+  border: 1px solid var(--lab-tint-border);
   border-radius: 8px;
   padding: 1.5em;
 }
 
 .openings-box h2 {
-  color: #ff8200;
-  font-size: 1.3em;
+  color: var(--lab-heading);
+  font-size: 1.4em;
+  font-weight: 400;
   margin: 0 0 1em 0;
 }
 
@@ -223,7 +228,7 @@ redirect_from:
 }
 
 .openings-box .highlight {
-  background: #ff8200;
+  background: var(--lab-primary);
   color: white;
   padding: 0.75em 1em;
   border-radius: 4px;
@@ -233,7 +238,7 @@ redirect_from:
 
 .btn-primary {
   display: inline-block;
-  background: #ff8200;
+  background: var(--lab-primary);
   color: white !important;
   padding: 0.6em 1.2em;
   border-radius: 4px;
@@ -244,15 +249,16 @@ redirect_from:
 }
 
 .btn-primary:hover {
-  background: #e07000;
+  background: var(--lab-primary-dark);
 }
 
 /* Research Highlights */
 .research-section h2 {
-  color: #ff8200;
-  font-size: 1.6em;
+  color: var(--lab-heading);
+  font-size: 1.8em;
+  font-weight: 400;
   margin-bottom: 1em;
-  border-bottom: 2px solid #ff8200;
+  border-bottom: 1px solid var(--lab-rule);
   padding-bottom: 0.5em;
 }
 
@@ -266,7 +272,7 @@ redirect_from:
   background: #f9f9f9;
   padding: 1.25em;
   border-radius: 6px;
-  border-left: 4px solid #ff8200;
+  border-left: 3px solid var(--lab-primary);
 }
 
 .research-card h4 {
@@ -329,7 +335,7 @@ redirect_from:
         <a href="https://scholar.google.com/citations?user=qS7fVDAAAAAJ&hl=en" title="Google Scholar" target="_blank"><i class="fas fa-graduation-cap"></i></a>
         <a href="https://github.com/SichengHe" title="GitHub" target="_blank"><i class="fab fa-github"></i></a>
         <a href="https://www.researchgate.net/profile/Sicheng-He" title="ResearchGate" target="_blank"><i class="fab fa-researchgate"></i></a>
-        <a href="https://orcid.org/0000-0003-1307-4909" title="ORCID" target="_blank"><i class="fab fa-orcid"></i></a>
+        <a href="https://orcid.org/0000-0003-1307-4909" title="ORCID" target="_blank"><i class="ai ai-orcid"></i></a>
       </div>
       <div class="contact-info">
         <p><i class="fas fa-envelope"></i> sicheng@utk.edu</p>
@@ -341,8 +347,8 @@ redirect_from:
 
   <div class="welcome-section">
     <h2>Welcome</h2>
-    <div style="background: #fff8f0; border-left: 4px solid #ff8200; padding: 0.75em 1em; margin-bottom: 1em; font-style: italic; color: #333;">
-      <strong style="font-style: normal;">Our mission:</strong> To develop structured and differentiable representations of complex dynamical systems that enable scalable analysis, physical insight, and optimal design.
+    <div class="lab-callout">
+      <strong>Our mission:</strong> To develop structured and differentiable representations of complex dynamical systems that enable scalable analysis, physical insight, and optimal design.
     </div>
     <p>
       The <strong>XD<sup>2</sup> Lab</strong> develops mathematical and computational frameworks to <strong>represent</strong>, <strong>interpret</strong>, and <strong>optimize</strong> complex nonlinear dynamical systems — with emphasis on engineering systems that operate near their instability limits.
@@ -360,35 +366,35 @@ redirect_from:
     <h2>Latest News</h2>
     <div class="news-item">
       <div class="news-date">Aug 2026</div>
-      <div class="news-content"><i class="fas fa-trophy" style="color: #ff8200;"></i> Jason Le receives the UTK <a href="https://studentsuccess.utk.edu/urf/scholarly-development-grants-sdgs/" target="_blank"><strong>Scholarly Development Grant &ndash; Research Assistant (SDG&ndash;RA) Award</strong></a> &mdash; congrats!</div>
+      <div class="news-content"><i class="fas fa-trophy" style="color: var(--lab-primary);"></i> Jason Le receives the UTK <a href="https://studentsuccess.utk.edu/urf/scholarly-development-grants-sdgs/" target="_blank"><strong>Scholarly Development Grant &ndash; Research Assistant (SDG&ndash;RA) Award</strong></a> &mdash; congrats!</div>
     </div>
     <div class="news-item">
       <div class="news-date">Aug 2026</div>
-      <div class="news-content"><i class="fas fa-briefcase" style="color: #ff8200;"></i> Congrats to Max Howell on accepting a position at <a href="https://www.rtx.com/raytheon" target="_blank"><strong>Raytheon</strong></a> &mdash; an exciting next step!</div>
+      <div class="news-content"><i class="fas fa-briefcase" style="color: var(--lab-primary);"></i> Congrats to Max Howell on accepting a position at <a href="https://www.rtx.com/raytheon" target="_blank"><strong>Raytheon</strong></a> &mdash; an exciting next step!</div>
     </div>
     <div class="news-item">
       <div class="news-date">Jul 2026</div>
-      <div class="news-content"><i class="fas fa-file-alt" style="color: #ff8200;"></i> Rohit Kanchi to present at the prestigious <a href="https://www.nas.nasa.gov/pubs/ams.html" target="_blank"><strong>NASA Ames Applied Modeling &amp; Simulation Seminar</strong></a> on July 2.</div>
+      <div class="news-content"><i class="fas fa-file-alt" style="color: var(--lab-primary);"></i> Rohit Kanchi to present at the prestigious <a href="https://www.nas.nasa.gov/pubs/ams.html" target="_blank"><strong>NASA Ames Applied Modeling &amp; Simulation Seminar</strong></a> on July 2.</div>
     </div>
     <div class="news-item">
       <div class="news-date">Jun 2026</div>
-      <div class="news-content"><i class="fas fa-file-alt" style="color: #ff8200;"></i> Paper <em>&ldquo;SurGE: Surrogate Gradient-guided Evolution for Co-design of Legged Robots with Parallel Elasticity&rdquo;</em> accepted at <strong>IROS 2026</strong> &mdash; led by <a href="https://silvery107.github.io" target="_blank">Yulun Zhuang</a> and <a href="https://sites.google.com/view/yanranding/home" target="_blank">Yanran Ding</a> (UMich).</div>
+      <div class="news-content"><i class="fas fa-file-alt" style="color: var(--lab-primary);"></i> Paper <em>&ldquo;SurGE: Surrogate Gradient-guided Evolution for Co-design of Legged Robots with Parallel Elasticity&rdquo;</em> accepted at <strong>IROS 2026</strong> &mdash; led by <a href="https://silvery107.github.io" target="_blank">Yulun Zhuang</a> and <a href="https://sites.google.com/view/yanranding/home" target="_blank">Yanran Ding</a> (UMich).</div>
     </div>
     <div class="news-item">
       <div class="news-date">Jun 2026</div>
-      <div class="news-content"><i class="fas fa-trophy" style="color: #ff8200;"></i> Rohit Kanchi wins <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7471734366985973760/" target="_blank"><strong>2026 AIAA Aviation MDO Best Student Paper Runner-Up</strong></a> ($1,000) &mdash; <a href="https://arxiv.org/abs/2605.04884" target="_blank">paper</a>.</div>
+      <div class="news-content"><i class="fas fa-trophy" style="color: var(--lab-primary);"></i> Rohit Kanchi wins <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7471734366985973760/" target="_blank"><strong>2026 AIAA Aviation MDO Best Student Paper Runner-Up</strong></a> (\$1,000) &mdash; <a href="https://arxiv.org/abs/2605.04884" target="_blank">paper</a>.</div>
     </div>
     <div class="news-item">
       <div class="news-date">Jun 2026</div>
-      <div class="news-content"><i class="fas fa-briefcase" style="color: #ff8200;"></i> Congrats to Ben Melanson on accepting a position at <a href="https://www.navsea.navy.mil/home/warfare-centers/" target="_blank"><strong>Naval Surface Warfare Center (NSWC)</strong></a> &mdash; important next step in his career!</div>
+      <div class="news-content"><i class="fas fa-briefcase" style="color: var(--lab-primary);"></i> Congrats to Ben Melanson on accepting a position at <a href="https://www.navsea.navy.mil/home/warfare-centers/" target="_blank"><strong>Naval Surface Warfare Center (NSWC)</strong></a> &mdash; important next step in his career!</div>
     </div>
     <div class="news-item">
       <div class="news-date">Dec 2025</div>
-      <div class="news-content"><i class="fas fa-file-alt" style="color: #ff8200;"></i> Rohit Kanchi and Ben Melanson presenting at <strong>NeurIPS 2025</strong>!</div>
+      <div class="news-content"><i class="fas fa-file-alt" style="color: var(--lab-primary);"></i> Rohit Kanchi and Ben Melanson presenting at <strong>NeurIPS 2025</strong>!</div>
     </div>
     <div class="news-item">
       <div class="news-date">Jul 2025</div>
-      <div class="news-content"><i class="fas fa-seedling" style="color: #ff8200;"></i> Seed grant from <a href="https://research.utk.edu/aitn/" target="_blank">UTK AI Tennessee Initiative</a> for AI research led by <a href="https://ne.utk.edu/people/vladimir-sobes/" target="_blank">Vladimir Sobes</a> ($50K total, $25K share).</div>
+      <div class="news-content"><i class="fas fa-seedling" style="color: var(--lab-primary);"></i> Seed grant from <a href="https://research.utk.edu/aitn/" target="_blank">UTK AI Tennessee Initiative</a> for AI research led by <a href="https://ne.utk.edu/people/vladimir-sobes/" target="_blank">Vladimir Sobes</a> (\$50K total, \$25K share).</div>
     </div>
     <div class="news-item">
       <div class="news-date">Dec 2024</div>

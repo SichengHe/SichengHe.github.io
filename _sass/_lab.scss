@@ -1,0 +1,98 @@
+/* ==========================================================================
+   XD² Lab theme: palette and typography
+   Page-level <style> blocks reference these variables, so the whole site's
+   color scheme can be changed here.
+   ========================================================================== */
+
+:root {
+  --lab-primary: #1e4d76;      // deep blue: banners, buttons, accents
+  --lab-primary-dark: #153a5a; // hover state
+  --lab-link: #2366ad;         // inline links
+  --lab-tint: #f2f6fa;         // light background for callout boxes
+  --lab-tint-border: #d5e0eb;  // border for tinted boxes
+  --lab-heading: #111;
+  --lab-text: #1f1f1f;
+  --lab-muted: #666;
+  --lab-rule: #dcdcdc;         // thin divider under section headings
+}
+
+body {
+  color: var(--lab-text);
+}
+
+/* Large, regular-weight headings */
+h1, h2 {
+  font-weight: 400;
+  color: var(--lab-heading);
+}
+
+.page__title {
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.page__content {
+  h1, h2 {
+    font-weight: 400;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 1.45em;
+  }
+}
+
+/* Figures with a caption underneath */
+.lab-figure {
+  display: block;
+  margin: 1.5em 0;
+  text-align: center;
+
+  // The theme stretches figure images to full width; keep natural size
+  img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  figcaption {
+    margin: 0.6em auto 0;
+    max-width: 850px;
+    font-size: 0.85em;
+    font-style: italic;
+    color: var(--lab-muted);
+    text-align: center;
+  }
+}
+
+/* Mission / callout box */
+.lab-callout {
+  background: var(--lab-tint);
+  border-left: 4px solid var(--lab-primary);
+  padding: 0.75em 1em;
+  margin-bottom: 1em;
+  font-style: italic;
+  color: #333;
+
+  strong {
+    font-style: normal;
+  }
+}
+
+/* Embedded video (FitVids makes the iframe responsive inside this box) */
+.lab-video {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Images shown side by side inside a figure */
+.lab-figure-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+}

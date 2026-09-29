@@ -13,11 +13,11 @@ author_profile: false
   padding: 1.5em;
   margin-bottom: 1.5em;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  border-left: 4px solid #ff8200;
+  border-left: 4px solid var(--lab-primary);
 }
 
 .dataset-card h2 {
-  color: #ff8200;
+  color: var(--lab-heading);
   margin-top: 0;
   margin-bottom: 0.5em;
 }
@@ -53,7 +53,7 @@ author_profile: false
 .dataset-card .stat-number {
   font-size: 1.5em;
   font-weight: bold;
-  color: #ff8200;
+  color: var(--lab-primary);
 }
 
 .dataset-card .stat-label {
@@ -76,8 +76,8 @@ author_profile: false
 }
 
 .dataset-card .citation {
-  background: #fff8f0;
-  border: 1px solid #ffe0c0;
+  background: var(--lab-tint);
+  border: 1px solid var(--lab-tint-border);
   border-radius: 4px;
   padding: 1em;
   margin-bottom: 1em;
@@ -98,7 +98,7 @@ author_profile: false
 
 .dataset-card .links a {
   display: inline-block;
-  background: #ff8200;
+  background: var(--lab-primary);
   color: white !important;
   padding: 0.5em 1em;
   border-radius: 4px;
@@ -108,7 +108,7 @@ author_profile: false
 }
 
 .dataset-card .links a:hover {
-  background: #e07000;
+  background: var(--lab-primary-dark);
 }
 
 .dataset-card .links a i {

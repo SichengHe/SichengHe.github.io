@@ -17,7 +17,7 @@ e<strong>X</strong>treme-condition <strong>D</strong>ynamics & <strong>D</strong
 }
 
 .team-section h2 {
-  border-bottom: 2px solid #ff8200;
+  border-bottom: 1px solid var(--lab-rule);
   padding-bottom: 0.5em;
   margin-bottom: 1em;
 }
@@ -49,7 +49,7 @@ e<strong>X</strong>treme-condition <strong>D</strong>ynamics & <strong>D</strong
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 1em;
-  border: 3px solid #ff8200;
+  border: 1px solid var(--lab-rule);
 }
 
 .team-card h3 {
@@ -93,13 +93,13 @@ e<strong>X</strong>treme-condition <strong>D</strong>ynamics & <strong>D</strong
 .team-card .links a {
   display: inline-block;
   margin: 0 0.3em;
-  color: #ff8200;
+  color: var(--lab-primary);
   font-size: 1.2em;
   transition: color 0.2s ease;
 }
 
 .team-card .links a:hover {
-  color: #e07000;
+  color: var(--lab-primary-dark);
 }
 
 /* PI Card - larger and centered */
@@ -306,7 +306,7 @@ e<strong>X</strong>treme-condition <strong>D</strong>ynamics & <strong>D</strong
   <tbody>
   {% for alum in site.data.team.alumni %}
     <tr>
-      <td>{{ alum.name }}</td>
+      <td>{% if alum.url %}<a href="{{ alum.url }}" target="_blank">{{ alum.name }}</a>{% else %}{{ alum.name }}{% endif %}</td>
       <td>{{ alum.degree }}</td>
       <td>{{ alum.graduation_year }}</td>
       <td>{{ alum.first_position }}</td>

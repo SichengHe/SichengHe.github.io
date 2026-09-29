@@ -93,6 +93,18 @@ undergraduate_students:
     affiliation: "Georgia Institute of Technology"
     links: {}
 
+  - name: "Dewang Sahay"
+    photo: "/images/team/dewang_sahay.jpg"
+    position: "Undergraduate Researcher"
+    affiliation: "Purdue University"
+    links: {}
+
+  - name: "Lucas Lumsden"
+    photo: "/images/team/lucas_lumsden.jpg"
+    position: "Undergraduate Researcher"
+    affiliation: "University of Tennessee, Knoxville"
+    links: {}
+
 # Alumni section - add graduated students here
 alumni:
   - name: "Benjamin Melanson"
@@ -105,6 +117,11 @@ alumni:
       linkedin: "https://www.linkedin.com/in/benjamin-melanson/"
       github: "https://github.com/BenjaminMelanson"
       personal_website: "http://benmelanson.com/"
+
+  - name: "Michael Graff"
+    degree: "NSF REU (Austin Peay State University)"
+    graduation_year: 2025
+    url: "https://par.nsf.gov/servlets/purl/10709374"  # REU poster
   # - name: "Former Student"
   #   photo: "/images/team/former_student.jpg"
   #   degree: "Ph.D."

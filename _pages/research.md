@@ -15,13 +15,13 @@ Our research is organized around three pillars: (1) **structured representations
 
 ## Research highlight: transonic buffet
 
-Transonic buffet—self-sustained shock and shear-layer oscillations—limits the cruise envelope of modern transport aircraft and emerges through a **Hopf bifurcation** of the steady flow.
-Led by Ph.D. student Rohit Kanchi, we predict buffet onset from first principles with **linear stability analysis (LST)** of the steady base flow, and we developed a **coupled adjoint** that computes the sensitivity of the dominant LST eigenvalue with respect to a large number of shape design variables.
+Transonic buffet—self-sustained shock and shear-layer oscillations—limits the cruise envelope of modern transport aircraft and emerges through a Hopf bifurcation of the steady flow.
+Led by Ph.D. student Rohit Kanchi, we predict buffet onset from first principles with linear stability analysis (LST) of the steady base flow, and we developed a **coupled adjoint** that computes the sensitivity of the dominant LST eigenvalue with respect to a large number of shape design variables.
 A buffet-constrained drag minimization of the OAT15A supercritical airfoil achieves a **22.4% drag reduction** while satisfying the LST-based buffet constraint.
 This work received the **2026 AIAA MDO Best Student Paper Runner-Up** award.
 
 We are extending the approach to three-dimensional buffet on swept wings.
-The simulation below was computed using [ADflow](https://github.com/mdolab/adflow), a state-of-the-art RANS-based finite-volume solver, on NASA's [Common Research Model (CRM)](https://commonresearchmodel.larc.nasa.gov/) wing in the wing-only configuration, at **Mach 0.85**, **angle of attack 4.2 deg**, and **Reynolds number 5 million**.
+The simulation below was computed using [ADflow](https://github.com/mdolab/adflow), a state-of-the-art RANS-based finite-volume solver, on NASA's [Common Research Model (CRM)](https://commonresearchmodel.larc.nasa.gov/) wing in the wing-only configuration, at Mach 0.85, angle of attack 4.2 deg, and Reynolds number 5 million.
 
 <figure class="lab-figure">
   <video controls playsinline preload="metadata" poster="../images/research/transonic_buffet_3d_tile.png" style="width: 100%; max-width: 1100px; background: #000; border: 1px solid #d8d8d8; border-radius: 6px;">

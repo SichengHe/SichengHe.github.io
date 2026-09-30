@@ -324,7 +324,7 @@ redirect_from:
 <div class="content-row">
   <div class="profile-section">
     <div class="profile-card">
-      <img src="/images/sicheng_utk.png" alt="Sicheng He">
+      <img src="/images/sicheng_he.jpg" alt="Sicheng He">
       <h3>Sicheng He</h3>
       <div class="title">Assistant Professor</div>
       <div class="affiliation">

@@ -345,6 +345,13 @@ redirect_from:
   font-weight: 600;
 }
 
+.featured-caption {
+  font-size: 0.8em;
+  color: #666;
+  margin: 0.5em 0 0 0;
+  line-height: 1.4;
+}
+
 .featured-status {
   color: #666;
   font-style: italic;
@@ -375,6 +382,7 @@ redirect_from:
     <video autoplay muted loop playsinline preload="metadata" poster="/images/oversetgym_poster.jpg">
       <source src="/files/oversetgym_demo.mp4" type="video/mp4">
     </video>
+    <p class="featured-caption">Two flying wings in tandem: prescribed manoeuvre plus a convecting 1&minus;cos gust. Unsteady RANS on moving overset grids, 2.7&nbsp;M cells (two 0.67&nbsp;M-cell wing grids, 1.3&nbsp;M-cell background), re-assembled every step.</p>
   </div>
   <div class="featured-text">
     <span class="featured-tag">Featured</span>

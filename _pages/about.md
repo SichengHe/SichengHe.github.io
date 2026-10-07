@@ -310,6 +310,55 @@ redirect_from:
   max-width: 200px;
   opacity: 0.8;
 }
+
+/* Featured (pinned) */
+.featured-section {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+  margin-bottom: 2.5em;
+  padding: 1.5em;
+  border-left: 4px solid var(--lab-primary);
+  background: #f6f8fb;
+  border-radius: 6px;
+}
+
+.featured-video {
+  flex: 0 0 58%;
+}
+
+.featured-video video {
+  width: 100%;
+  border-radius: 6px;
+  display: block;
+}
+
+.featured-text h2 {
+  margin: 0.2em 0 0.4em 0;
+}
+
+.featured-tag {
+  font-size: 0.75em;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--lab-primary);
+  font-weight: 600;
+}
+
+.featured-status {
+  color: #666;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .featured-section {
+    flex-direction: column;
+  }
+  .featured-video {
+    flex: none;
+    width: 100%;
+  }
+}
 </style>
 
 <!-- Hero Section -->
@@ -319,6 +368,21 @@ redirect_from:
 </div>
 
 <div class="main-content">
+
+<!-- Featured (pinned): OversetGym -->
+<div class="featured-section">
+  <div class="featured-video">
+    <video autoplay muted loop playsinline preload="metadata" poster="/images/oversetgym_poster.jpg">
+      <source src="/files/oversetgym_demo.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="featured-text">
+    <span class="featured-tag">Featured</span>
+    <h2>OversetGym</h2>
+    <p>Gym-style environments on moving overset grids: aircraft that maneuver, interact through their wakes, and fly through gusts, simulated with unsteady RANS.</p>
+    <p class="featured-status">To be released.</p>
+  </div>
+</div>
 
 <!-- Row 1: Profile + Welcome -->
 <div class="content-row">

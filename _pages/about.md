@@ -392,6 +392,22 @@ redirect_from:
   </div>
 </div>
 
+<!-- Featured: folding-wing deployment -->
+<div class="featured-section" id="deployment">
+  <div class="featured-video">
+    <video autoplay muted loop playsinline preload="metadata" poster="/images/deployment_fsi_poster.jpg">
+      <source src="/files/deployment_fsi.mp4" type="video/mp4">
+    </video>
+    <p class="featured-caption">Coupled simulation, one grid and time step: unsteady RANS on moving overset grids (1.8&nbsp;M cells) loosely coupled to a six-mode wing-box model; prescribed hinge motion; dynamic pressure of 36&nbsp;m/s flight at sea level.</p>
+  </div>
+  <div class="featured-text">
+    <span class="featured-tag">Featured</span>
+    <h2>Folding-wing deployment</h2>
+    <p>A folded wing panel swings out 90&deg; in 34&nbsp;ms and latches. Left to right: the wing&rsquo;s grid moving through the background grid, the wing-box finite-element mesh, and the surface pressure. The orange arrow shows the unfolding direction.</p>
+    <p>Below, lift and the aerodynamic hinge moment are shown relative to their latched values. The hinge moment peaks at 2.2 times its latched value before the latch engages, a load that analysis of the deployed wing alone does not see.</p>
+  </div>
+</div>
+
 <!-- Row 1: Profile + Welcome -->
 <div class="content-row">
   <div class="profile-section">

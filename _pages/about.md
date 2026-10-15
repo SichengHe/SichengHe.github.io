@@ -408,6 +408,25 @@ redirect_from:
   </div>
 </div>
 
+<!-- Research highlight: supersonic jet LES -->
+<div class="featured-section" id="supersonic-jet-les">
+  <div class="featured-video">
+    <video autoplay muted loop controls playsinline preload="auto" aria-label="Experimental schlieren image compared with a large-eddy simulation of a supersonic jet">
+      <source src="/files/supersonic-jet-les.webm" type="video/webm">
+      <source src="/files/supersonic-jet-les.mp4" type="video/mp4">
+      Your browser does not support the video tag. <a href="/files/supersonic-jet-les.mp4">Download the video</a>.
+    </video>
+    <p class="featured-caption">Top: a single instantaneous experimental schlieren image from Constantin et al. Bottom: evolving synthetic line-of-sight schlieren from the LES with a knife-edge nozzle lip and base flange. The red box marks the experimental test region.</p>
+  </div>
+  <div class="featured-text">
+    <span class="featured-tag">Research highlight</span>
+    <h2>Supersonic jet LES</h2>
+    <p>Large-eddy simulations of a Mach 1.5 underexpanded jet at a nozzle pressure ratio of 5, computed with the GPU-accelerated <a href="https://doi.org/10.1016/j.cpc.2023.108700">HORSES3D solver</a>.</p>
+    <p>We validate against the experimental schlieren and imaging-focused laser differential interferometry (I-FLDI) measurements of <a href="https://doi.org/10.1364/AO.599656">Constantin et al., <em>High-speed 2D flow mapping via imaging-focused laser differential interferometry</em> (Applied Optics, 2026)</a>.</p>
+    <p>The LES predicts a screech tone of <strong>15.9&nbsp;kHz</strong>, compared with the experimental screech tone of <strong>16.1&nbsp;kHz</strong>.</p>
+  </div>
+</div>
+
 <!-- Row 1: Profile + Welcome -->
 <div class="content-row">
   <div class="profile-section">

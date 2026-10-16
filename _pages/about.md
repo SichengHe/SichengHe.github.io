@@ -408,6 +408,23 @@ redirect_from:
   </div>
 </div>
 
+<!-- Research highlight: matrix-free resolvent analysis -->
+<div class="featured-section" id="resolvent">
+  <div class="featured-video">
+    <a href="/research/#matrix-free-resolvent">
+      <img src="/images/research/crm-resolvent-response-28m.png" width="1634" height="659" loading="lazy" decoding="async" alt="Red and blue velocity-response structures extending behind the shock on the NASA CRM wing" style="width: 100%; height: auto; display: block; border-radius: 6px;">
+    </a>
+    <p class="featured-caption">Optimal velocity response on the 28.8-million-cell CRM wing. Red and blue show positive and negative perturbations; the black line marks the shock.</p>
+  </div>
+  <div class="featured-text">
+    <span class="featured-tag">Research highlight</span>
+    <h2>Resolvent analysis at aircraft scale</h2>
+    <p>Which disturbances does a wing amplify? Our matrix-free resolvent analysis reveals rows of buffet cells behind the shock, extending into the wake.</p>
+    <p>The latest study reaches <strong>28.8 million cells</strong> and <strong>173 million complex unknowns</strong>, without assembling the full flow Jacobian.</p>
+    <p><a href="/research/#matrix-free-resolvent">Explore the resolvent results &rarr;</a></p>
+  </div>
+</div>
+
 <!-- Research highlight: supersonic jet LES -->
 <div class="featured-section" id="supersonic-jet-les">
   <div class="featured-video">

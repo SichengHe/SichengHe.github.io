@@ -67,9 +67,11 @@ __Publication:__
 
 ## 2. Operator-theoretic analysis and interpretable reduced coordinates
 
-<figure class="lab-figure">
-  <img src="../images/research/uvel_response_mode_top_view.png" alt="Resolvent response mode on NASA CRM wing">
-  <figcaption>Velocity resolvent response mode on the NASA Common Research Model wing, computed using our matrix-free resolvent analysis framework.</figcaption>
+<figure class="lab-figure" id="matrix-free-resolvent">
+  <a href="../images/research/crm-resolvent-response-28m.png">
+    <img src="../images/research/crm-resolvent-response-28m.png" width="1634" height="659" loading="lazy" decoding="async" alt="Optimal streamwise-velocity response on the NASA CRM wing, with alternating red and blue buffet cells behind the black shock line">
+  </a>
+  <figcaption>Optimal streamwise-velocity response on the NASA Common Research Model wing at Mach 0.85 and 4.2&deg; incidence, computed on the finest grid: 28.8 million cells and 173 million complex unknowns. Red and blue isosurfaces show positive and negative perturbations; the black line marks the steady shock. This mode uses the volume-weighted Chu energy norm at dimensionless angular frequency &omega; = 6.4, with no exponential discount.</figcaption>
 </figure>
 
 **How do we extract the dominant mechanisms, coordinates, and sensitivities from large-scale nonlinear systems?**
@@ -77,14 +79,15 @@ __Publication:__
 We build modal and operator-based tools to turn simulation data or linearized operators into understanding: what modes matter, what forcing/response structures dominate, and how sensitivities propagate through modal objects.
 Critically, our analysis tools are not passive diagnostics—they are made **optimization-ready** through differentiable formulations that connect directly to gradient-based design.
 
-Key contributions include the first **fully matrix-free resolvent analysis** for 3D aerodynamic systems (NASA CRM, **1.8 million cells**), **differentiable resolvent analysis** for flow control optimization, and **differentiable POD** for optimization-compatible modal decompositions and field inversion.
+Key contributions include **matrix-free resolvent analysis** for 3D aerodynamic systems (NASA CRM, **28.8 million cells and 173 million complex unknowns**), **differentiable resolvent analysis** for flow control optimization, and **differentiable POD** for optimization-compatible modal decompositions and field inversion.
+Our latest resolvent study follows the same outboard-travelling buffet-cell mechanism across three grid levels, from a self-excited oscillator on the coarsest mesh to a disturbance amplifier on the finer meshes.
 
 __Publication:__
 
 
 |        |  |
 |   :-:    | -       |
-| <img src='../images/publication/uvel_response_mode_top_view.png' align="center" width="200" height="10"> | __Sicheng He__, Rohit Kanchi.  <br><br> __Matrix-Free Resolvent Analysis for Large-Scale Aerodynamic Systems__  <br><br> _in preparation_.|
+| <img src='../images/research/crm-resolvent-response-28m.png' alt="CRM wing resolvent response" align="center" width="200"> | Rohit Kanchi, __Sicheng He__.  <br><br> __Matrix-Free Resolvent Analysis for Large-Scale Aerodynamic Systems__  <br><br> _in preparation_.|
 | <img src='../images/publication/resolvent_opt.png' align="center" width="200" height="10"> | __Sicheng He__, Shugo Kaneko, Daning Huang, Chi-An Yeh, Joaquim R. R. A. Martins.  <br><br> __Large-Scale Flow Control Performance Optimization via Differentiable Resolvent Analysis__  <br><br> _in preparation_.|
 | <img src='../images/publication/pod_overview.png' align="center" width="200" height="10"> | Rohit Sunil Kanchi, __Sicheng He__.  <br><br> [__Modal-Centric Field Inversion via Differentiable Proper Orthogonal Decomposition__](https://arxiv.org/abs/2601.14858)  <br><br> _Journal of Computational Physics (major revision submitted)_ (2026).|
 

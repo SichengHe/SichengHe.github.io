@@ -79,7 +79,8 @@ __Publication:__
 We build modal and operator-based tools to turn simulation data or linearized operators into understanding: what modes matter, what forcing/response structures dominate, and how sensitivities propagate through modal objects.
 Critically, our analysis tools are not passive diagnostics—they are made **optimization-ready** through differentiable formulations that connect directly to gradient-based design.
 
-Key contributions include **matrix-free resolvent analysis** for 3D aerodynamic systems (NASA CRM, **28.8 million cells and 173 million complex unknowns**), **differentiable resolvent analysis** for flow control optimization, and **differentiable POD** for optimization-compatible modal decompositions and field inversion.
+To our knowledge, our framework provides the **first fully matrix-free frequency-domain resolvent analysis for 3D RANS aerodynamics** and the **largest resolvent computation reported to date**: the NASA CRM wing with **28.8 million cells and 173 million complex unknowns**.
+Other contributions include **differentiable resolvent analysis** for flow control optimization and **differentiable POD** for optimization-compatible modal decompositions and field inversion.
 Our latest resolvent study follows the same outboard-travelling buffet-cell mechanism across three grid levels, from a self-excited oscillator on the coarsest mesh to a disturbance amplifier on the finer meshes.
 
 __Publication:__

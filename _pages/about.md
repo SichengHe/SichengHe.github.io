@@ -419,8 +419,8 @@ redirect_from:
   <div class="featured-text">
     <span class="featured-tag">Research highlight</span>
     <h2>Resolvent analysis at aircraft scale</h2>
-    <p>Which disturbances does a wing amplify? Our matrix-free resolvent analysis reveals rows of buffet cells behind the shock, extending into the wake.</p>
-    <p>The latest study reaches <strong>28.8 million cells</strong> and <strong>173 million complex unknowns</strong>, without assembling the full flow Jacobian.</p>
+    <p>To our knowledge, we developed the <strong>first fully matrix-free frequency-domain resolvent analysis for 3D RANS aerodynamics</strong>, revealing rows of buffet cells behind the shock and into the wake.</p>
+    <p>At <strong>28.8 million cells</strong> and <strong>173 million complex unknowns</strong>, this is the <strong>largest resolvent computation reported to date</strong>, to our knowledge, without assembling the full flow Jacobian.</p>
     <p><a href="/research/#matrix-free-resolvent">Explore the resolvent results &rarr;</a></p>
   </div>
 </div>

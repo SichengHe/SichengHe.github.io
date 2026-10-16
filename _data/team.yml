@@ -105,6 +105,12 @@ undergraduate_students:
     affiliation: "University of Tennessee, Knoxville"
     links: {}
 
+  - name: "Justin Lee"
+    photo: "/images/bio-photo.jpg"
+    position: "Undergraduate Researcher"
+    affiliation: "Purdue University"
+    links: {}
+
 # Alumni section - add graduated students here
 alumni:
   - name: "Benjamin Melanson"

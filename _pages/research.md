@@ -83,6 +83,8 @@ To our knowledge, our framework provides the **first fully matrix-free frequency
 Other contributions include **differentiable resolvent analysis** for flow control optimization and **differentiable POD** for optimization-compatible modal decompositions and field inversion.
 Our latest resolvent study follows the same outboard-travelling buffet-cell mechanism across three grid levels, from a self-excited oscillator on the coarsest mesh to a disturbance amplifier on the finer meshes.
 
+**Computational cost of the illustrated case:** At &omega; = 6.4, the 28.8-million-cell calculation used **512 active CPU cores (512 MPI ranks) across 16 nodes**. The nodes provided 2,048 allocated cores; the run used 32 ranks per node to accommodate its memory requirements. One certified frequency took **20.3 hours of wall time**, including 13.6 hours for the singular-value decomposition, plus setup, warm-up, and verification. Writing the forcing and response modes brought the total job time to **21.6 hours**.
+
 __Publication:__
 
 

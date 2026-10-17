@@ -421,6 +421,7 @@ redirect_from:
     <h2>Resolvent analysis at aircraft scale</h2>
     <p>To our knowledge, we developed the <strong>first fully matrix-free frequency-domain resolvent analysis for 3D RANS aerodynamics</strong>, revealing rows of buffet cells behind the shock and into the wake.</p>
     <p>At <strong>28.8 million cells</strong> and <strong>173 million complex unknowns</strong>, this is the <strong>largest resolvent computation reported to date</strong>, to our knowledge, without assembling the full flow Jacobian.</p>
+    <p>The illustrated calculation used <strong>512 active CPU cores across 16 nodes</strong> and took <strong>20.3 hours of wall time</strong> for one certified frequency, or <strong>21.6 hours including mode output</strong>.</p>
     <p><a href="/research/#matrix-free-resolvent">Explore the resolvent results &rarr;</a></p>
   </div>
 </div>

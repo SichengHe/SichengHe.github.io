@@ -31,6 +31,17 @@ The simulation below was computed using [ADflow](https://github.com/mdolab/adflo
   <figcaption>A tiled view of the 3D buffet dynamics on the CRM wing showing the Q-criterion isosurface, density, pressure coefficient with shock isosurface, spanwise velocity, spanwise vorticity, and lift-coefficient history.</figcaption>
 </figure>
 
+We are also using optimal control to suppress buffet on the CRM wing by morphing the wing shape in time.
+Starting from the baseline buffet limit cycle, the wing morphs to the controlled shape and is then held fixed while the oscillation dies out.
+
+<figure class="lab-figure">
+  <video controls playsinline preload="metadata" poster="../images/research/transonic_buffet_3d_morphing_control.jpg" style="width: 100%; max-width: 1100px; background: #000; border: 1px solid #d8d8d8; border-radius: 6px;">
+    <source src="../assets/videos/transonic-buffet-3d-crm-morphing-control.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <figcaption>Buffet suppression on the CRM wing through optimal-control shape morphing. Left: sectional profiles at four spanwise stations, baseline versus current shape (displacement magnified 3×). Center: upper-surface pressure coefficient with the shock isosurface. Right: shape displacement Δz/c on the upper and lower surfaces. Bottom: lift-coefficient history through the baseline limit cycle, morph, and hold phases.</figcaption>
+</figure>
+
 __Publication:__
 
 

@@ -99,12 +99,6 @@ undergraduate_students:
     affiliation: "Purdue University"
     links: {}
 
-  - name: "Lucas Lumsden"
-    photo: "/images/team/lucas_lumsden.jpg"
-    position: "Undergraduate Researcher"
-    affiliation: "University of Tennessee, Knoxville"
-    links: {}
-
   - name: "Justin Lee"
     photo: "/images/bio-photo.jpg"
     position: "Undergraduate Researcher"
